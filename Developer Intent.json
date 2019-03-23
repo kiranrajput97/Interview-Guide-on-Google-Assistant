@@ -1,0 +1,172 @@
+{
+  "id": "7e1347d1-91ff-4766-90d5-e86affae64e9",
+  "name": "Developer Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "This application is designed and developed by Kiran Rajput.\nHere is more about him..."
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Kiran Rajput",
+          "subtitle": "Mr Developer",
+          "formattedText": "",
+          "image": {
+            "url": "https://media.licdn.com/dms/image/C4E03AQFAYl7N7RCHlg/profile-displayphoto-shrink_200_200/0?e=1536192000&v=beta&t=r9q5S_pxewndVPcZfFWgPw6uu2ijuK-Mn81m34NGFEM",
+            "accessibilityText": "A Dynamic and high Spirited individual with the ability to drive change in the present technological world. Highly organized individual that believes in the empowerment, team work, fast learning, goal driven and result oriented"
+          },
+          "buttons": [
+            {
+              "title": "Linkedin",
+              "openUrlAction": {
+                "url": "https://www.linkedin.com/feed/?trk=",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Java Questions"
+            },
+            {
+              "title": "Python Questions"
+            },
+            {
+              "title": "C Questions"
+            },
+            {
+              "title": "JavaScript Questions"
+            },
+            {
+              "title": "php Questions"
+            },
+            {
+              "title": "SQL Questions"
+            },
+            {
+              "title": "DS Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "custom_payload",
+          "platform": "google",
+          "payload": {
+            "google": {}
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533662530,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "cfac4a35-39ef-481e-b112-385783be594e",
+      "data": [
+        {
+          "text": "developer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533079613,
+      "isAuto": false
+    },
+    {
+      "id": "c2d8bb1c-fc65-45ed-96f1-dfb18d008f55",
+      "data": [
+        {
+          "text": "your creator"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533079613,
+      "isAuto": false
+    },
+    {
+      "id": "3f1ff89e-aacc-4716-962b-293d98cef6a9",
+      "data": [
+        {
+          "text": "who is your developer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533079613,
+      "isAuto": false
+    },
+    {
+      "id": "9adc0b65-a1b9-4065-86bc-0a90119c6965",
+      "data": [
+        {
+          "text": "your developer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533079613,
+      "isAuto": false
+    },
+    {
+      "id": "9b760e0f-9053-4c08-823f-b10c52885e68",
+      "data": [
+        {
+          "text": "who created you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533079613,
+      "isAuto": false
+    },
+    {
+      "id": "21a2ba2f-2963-4951-a2c0-8bcd5466fe8d",
+      "data": [
+        {
+          "text": "who developed you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533079613,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

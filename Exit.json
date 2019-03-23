@@ -1,0 +1,188 @@
+{
+  "id": "f6c8dc86-2b4f-4fd2-84e3-16c56f66b5a5",
+  "name": "Exit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Thanks for being here \nSee you again.\nGood bye."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536452898,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "2e8d5645-3c13-45f7-9882-054310d31244",
+      "data": [
+        {
+          "text": "quit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "15ce9939-d12b-476d-b066-d6d4eb202bfc",
+      "data": [
+        {
+          "text": "Abort"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "b918561c-c0ce-4f01-b0e4-e4df5d72b2e0",
+      "data": [
+        {
+          "text": "see you soon"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "2cf853d6-4137-4092-a526-157255c0cf9a",
+      "data": [
+        {
+          "text": "okay thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "a67b987e-ae74-4500-ac01-5f4d8fcf5370",
+      "data": [
+        {
+          "text": "Dis Engage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "13230b47-07d4-469c-9703-b8b5e2d87da9",
+      "data": [
+        {
+          "text": "thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "0ec55bcb-3e22-4fff-89fc-19b60f9b613b",
+      "data": [
+        {
+          "text": "Disengage"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "a1c6acdd-43bd-4ccb-a7a0-2ccb8801a5cb",
+      "data": [
+        {
+          "text": "exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "801ac2ef-9137-4a83-baf8-76b01a855a54",
+      "data": [
+        {
+          "text": "okk bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "9afa149b-24f7-4b50-b98a-aad5e14ce449",
+      "data": [
+        {
+          "text": "meet u tomorrow"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452898,
+      "isAuto": false
+    },
+    {
+      "id": "3e1bd761-4e28-44c4-b129-5e018b1f11cb",
+      "data": [
+        {
+          "text": "bye tc"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    },
+    {
+      "id": "d8ff4422-660c-4bcd-ae78-de75a60d570d",
+      "data": [
+        {
+          "text": "bye bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533662839,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

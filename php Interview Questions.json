@@ -1,0 +1,461 @@
+{
+  "id": "39ad1c9f-5aa9-4209-9e10-4e68ba60b9d1",
+  "name": "php Interview Questions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be71a3e8-224d-4a32-9558-86409e3cdf76",
+          "required": false,
+          "dataType": "@sys.currency-name",
+          "name": "currency-name",
+          "value": "$currency-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "items": [
+            {
+              "textToSpeech": "Q: What is PHP? \\n PHP is a web language based on scripts that allow developers to dynamically create generated web pages."
+            },
+            {
+              "textToSpeech": "Q: what is the static variable in function useful for?\nA static variable is defined within a function only the first time, and its value can be modified during function calls as follows:\n<!--?\nphp function testFunction() { static $testVariable = 1; echo $testVariable; $testVariable++; } testFunction();\n 1. testFunction();\n2. testFunction();?\n-->."
+            },
+            {
+              "textToSpeech": "Q: How can we define a variable accessible in functions of a PHP script?\nThis feature is possible using the global keyword."
+            },
+            {
+              "textToSpeech": "Q: How is it possible to return a value from a function?\n A function returns a value using the instruction 'return $value;'."
+            },
+            {
+              "textToSpeech": "Q: What is the most convenient hashing method to be used to hash passwords?\nIt is preferable to use crypt() which natively supports several hashing algorithms or the function hash() which supports more variants than crypt() rather than using the common hashing algorithms such as md5, sha1 or sha256 because they are conceived to be fast. Hence, hashing passwords with these algorithms can create vulnerability."
+            },
+            {
+              "textToSpeech": "Q: Which cryptographic extension provide generation and verification of digital signatures?\nThe PHP-OpenSSL extension provides several cryptographic operations including generation and verification of digital signatures."
+            },
+            {
+              "textToSpeech": "Q: How is a constant defined in a PHP script?\nThe define() directive lets us defining a constant as follows: \ndefine ('ACONSTANT', 123);."
+            },
+            {
+              "textToSpeech": "Q: How can you pass a variable by reference?\nTo be able to pass a variable by reference, we use an ampersand in front of it, as follows $var1 = &$var2."
+            },
+            {
+              "textToSpeech": "Q: Will a comparison of an integer 12 and a string 13 work in PHP?\n13 and 12 can be compared in PHP since it casts everything to the integer type."
+            },
+            {
+              "textToSpeech": "Q: When is a conditional statement ended with endif?\nWhen the original if was followed by: and then the code block without braces."
+            },
+            {
+              "textToSpeech": "Q: How is the ternary conditional operator used in PHP?\nIt is composed of three expressions: a condition, and two operands describing what instruction should be performed when the specified condition is true or false as follows: \nExpression_1?\nExpression_2 : Expression_3;."
+            },
+            {
+              "textToSpeech": "Q: What is the function func_num_args() used for?\nThe function func_num_args() is used to give the number of parameters passed into a function."
+            },
+            {
+              "textToSpeech": "Q: If the variable $var1 is set to 10 and the $var2 is set to the character var1, what's the value of $$var2?\n $$var2 contains the value 10."
+            },
+            {
+              "textToSpeech": "Q: What does accessing a class via :: means?\n:: is used to access static methods that do not require object initialization."
+            },
+            {
+              "textToSpeech": "Q: In PHP, objects are they passed by value or by reference?\n In PHP, objects passed by value."
+            },
+            {
+              "textToSpeech": "Q: Are Parent constructors called implicitly inside a class constructor?\nNo, a parent constructor have to be called explicitly as follows: \nparent::constructor($value)."
+            },
+            {
+              "textToSpeech": "Q: What's the difference between __sleep and __wakeup?\n __sleep returns the array of all the variables that need to be saved, while __wakeup retrieves them."
+            },
+            {
+              "textToSpeech": "Q: what is the definition of a session?\n A session is a logical object enabling us to preserve temporary data across multiple PHP pages."
+            },
+            {
+              "textToSpeech": "Q: Which programming language does PHP resemble?\nPHP syntax resembles Perl and C."
+            },
+            {
+              "textToSpeech": "Q: What does PEAR stand for?\nPEAR means PHP Extension and Application Repository'.'' It extends PHP and provides a higher level of programming for web developers."
+            },
+            {
+              "textToSpeech": "Q: What is the actually used PHP version?\nVersion 7.1  72 is the recommended version of PHP."
+            },
+            {
+              "textToSpeech": "Q: How do you execute a PHP script from the command line?\nJust use the PHP command line interface (CLI) and specify the file name of the script to be executed as follows:php script.'php'."
+            },
+            {
+              "textToSpeech": "Q: How to run the interactive PHP shell from the command line interface?\nJust use the PHP CLI program with the option -a as follows:php -a."
+            },
+            {
+              "textToSpeech": "Q: What is the correct and the most two common way to start and finish a PHP block of code?\nThe two most common ways to start and finish a PHP script are: <?\nphp [   ---  PHP code---- ] ?\n> and <?\n [---  PHP code  ---] ?\n>."
+            },
+            {
+              "textToSpeech": "Q: How can we display the output directly to the browser?\nTo be able to display the output directly to the browser, we have to use the special tags <?\n= and ?\n>."
+            },
+            {
+              "textToSpeech": "Q: What is the main difference between PHP 4 and PHP 5?\nPHP 5 presents many additional OOP (Object Oriented Programming) features."
+            },
+            {
+              "textToSpeech": "Q: Is multiple inheritance supported in PHP?\nPHP supports only single inheritance; it means that a class can be extended from only one single class using the keyword 'extended'."
+            },
+            {
+              "textToSpeech": "Q: What is the meaning of a final class and a final method?\n'final' is introduced in PHP5. Final class means that this class cannot be extended and a final method cannot be overridden."
+            },
+            {
+              "textToSpeech": "Q: How is the comparison of objects done in PHP?\nWe use the operator '==' to test is two objects are instanced from the same class and have same attributes and equal values. We can test if two objects are referring to the same instance of the same class by the use of the identity operator '==='."
+            },
+            {
+              "textToSpeech": "Q: How can PHP and HTML interact?\nIt is possible to generate HTML through PHP scripts, and it is possible to pass pieces of information from HTML to PHP."
+            },
+            {
+              "textToSpeech": "Q: What type of operation is needed when passing values through a form or an URL?\nIf we would like to pass values through a form or an URL, then we need to encode and to decode them using htmlspecialchars() and urlencode()."
+            },
+            {
+              "textToSpeech": "Q: How can PHP and Javascript interact?\nPHP and Javascript cannot directly interact since PHP is a server side language and Javascript is a client-side language. However, we can exchange variables since PHP can generate Javascript code to be executed by the browser and it is possible to pass specific variables back to PHP via the URL."
+            },
+            {
+              "textToSpeech": "Q: What is needed to be able to use image function?\nGD library is needed to execute image functions."
+            },
+            {
+              "textToSpeech": "Q: What is the use of the function 'imagetypes()'?\nimagetypes() gives the image format and types supported by the current version of GD-PHP."
+            },
+            {
+              "textToSpeech": "Q: What are the functions to be used to get the image's properties (size, width, and height)?\nThe functions are getimagesize() for size, imagesx() for width and imagesy() for height."
+            },
+            {
+              "textToSpeech": "Q: How failures in execution are handled with include() and require() functions?\nIf the function require() cannot access the file then it ends with a fatal error. However, the include() function gives a warning, and the PHP script continues to execute."
+            },
+            {
+              "textToSpeech": "Q: What is the main difference between require() and require_once()?\nrequire(), and require_once() perform the same task except that the second function checks if the PHP script is already included or not before executing it.(same for include_once() and include())."
+            },
+            {
+              "textToSpeech": "Q: How can I display text with a PHP script?\nTwo methods are possible:\n <!--?\nphp echo 'Method 1'; print 'Method 2'; ?\n--> ."
+            },
+            {
+              "textToSpeech": "Q: How can we display information of a variable and readable by a human with PHP?\n To be able to display a human-readable result we use print_r()."
+            },
+            {
+              "textToSpeech": "Q: How is it possible to set an infinite execution time for PHP script?\nThe set_time_limit(0) added at the beginning of a script sets to infinite the time of execution to not have the PHP error 'maximum execution time exceeded. It is also possible to specify this in the php.ini file."
+            },
+            {
+              "textToSpeech": "Q: What does the PHP error 'Parse error in PHP - unexpected T_variable at line x' means?\nThis is a PHP syntax error expressing that a mistake at the line x stops parsing and executing the program."
+            },
+            {
+              "textToSpeech": "Q: What should we do to be able to export data into an Excel file?\nThe most common and used way is to get data into a format supported by Excel. For example, it is possible to write a .csv file, to choose for example comma as a separator between fields and then to open the file with Excel."
+            },
+            {
+              "textToSpeech": "Q: What is the function file_get_contents() useful for?\n file_get_contents() lets reading a file and storing it in a string variable."
+            },
+            {
+              "textToSpeech": "Q: How can we connect to a MySQL database from a PHP script?\nTo be able to connect to a MySQL database, we must use mysqli_connect() function as follows:\n<!--?\nphp $database = mysqli_connect('HOST', 'USER_NAME', 'PASSWORD'); mysqli_select_db($database,'DATABASE_NAME'); ?\n-->."
+            },
+            {
+              "textToSpeech": "Q: What is the function mysql_pconnect() useful for?\n mysql_pconnect() ensure a persistent connection to the database, it means that the connection does not close when the PHP script ends. \nThis function is not supported in PHP 7.0 and above."
+            },
+            {
+              "textToSpeech": "Q: How be the result set of Mysql handled in PHP?\nThe result set can be handled using mysqli_fetch_array, mysqli_fetch_assoc, mysqli_fetch_object or mysqli_fetch_row."
+            },
+            {
+              "textToSpeech": "Q: How is it possible to know the number of rows returned in the result set?\n The function mysqli_num_rows() returns the number of rows in a result set."
+            },
+            {
+              "textToSpeech": "Q: Which function gives us the number of affected entries by a query?\n mysqli_affected_rows() return the number of entries affected by an SQL query."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between mysqli_fetch_object() and mysqli_fetch_array()?\n The mysqli_fetch_object() function collects the first single matching record where mysqli_fetch_array() collects all matching records from the table in an array."
+            },
+            {
+              "textToSpeech": "Q: How can we access the data sent through the URL with the GET method?\n To access the data sent via the GET method, we use $_GET array like this: \n www.'url.'com?\nvar=value \n $variable = $_GET['var']; this will now contain 'value'."
+            },
+            {
+              "textToSpeech": "Q: How can we access the data sent through the URL with the POST method?\n To access the data sent this way, you use the $_POST array.\nImagine you have a form field called 'var' on the form when the user clicks submit to the post form, you can then access the value like this:\n$_POST['var'];."
+            },
+            {
+              "textToSpeech": "Q: How can we check the value of a given variable is a number?\nIt is possible to use the dedicated function, is_numeric() to check whether it is a number or not."
+            },
+            {
+              "textToSpeech": "Q: How can we check the value of a given variable is alphanumeric?\nIt is possible to use the dedicated function, ctype_alnum to check whether it is an alphanumeric value or not."
+            },
+            {
+              "textToSpeech": "Q: How do I check if a given variable is empty?\nIf we want to check whether a variable has a value or not, it is possible to use the empty() function."
+            },
+            {
+              "textToSpeech": "Q: What does the unlink() function mean?\nThe unlink() function is dedicated for file system handling. It simply deletes the file given as entry."
+            },
+            {
+              "textToSpeech": "Q: What does the unset() function mean?\nThe unset() function is dedicated for variable management. It will make a variable undefined."
+            },
+            {
+              "textToSpeech": "Q: How do I escape data before storing it in the database?\nThe addslashes function enables us to escape data before storage into the database."
+            },
+            {
+              "textToSpeech": "Q: How is it possible to remove escape characters from a string?\nThe stripslashes function enables us to remove the escape characters before apostrophes in a string."
+            },
+            {
+              "textToSpeech": "Q: How can we automatically escape incoming data?\nWe have to enable the Magic quotes entry in the configuration file of PHP."
+            },
+            {
+              "textToSpeech": "Q: What does the function get_magic_quotes_gpc() means?\nThe function get_magic_quotes_gpc() tells us whether the magic quotes is switched on or no."
+            },
+            {
+              "textToSpeech": "Q: Is it possible to remove the HTML tags from data?\nThe strip_tags() function enables us to clean a string from the HTML tags."
+            },
+            {
+              "textToSpeech": "Q: How to initiate a session in PHP?\n The use of the function session_start() lets us activating a session."
+            },
+            {
+              "textToSpeech": "Q: How can you propagate a session id?\n You can propagate a session id via cookies or URL parameters."
+            },
+            {
+              "textToSpeech": "Q: What is the meaning of a Persistent Cookie?\n A persistent cookie is permanently stored in a cookie file on the browser's computer. By default, cookies are temporary and are erased if we close the browser."
+            },
+            {
+              "textToSpeech": "Q: When do sessions end?\nSessions automatically end when the PHP script finishes executing but can be manually ended using the session_write_close()."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between session_unregister() and session_unset()?\nThe session_unregister() function unregister a global variable from the current session and the session_unset() function frees all session variables."
+            },
+            {
+              "textToSpeech": "Q: What does $GLOBALS mean?\n$GLOBALS is associative array including references to all variables which are currently defined in the global scope of the script."
+            },
+            {
+              "textToSpeech": "Q: What does $_SERVER mean?\n$_SERVER is an array including information created by the web server such as paths, headers, and script locations."
+            },
+            {
+              "textToSpeech": "Q: What does $_FILES means?\n$_FILES is an associative array composed of items sent to the current script via the HTTP POST method."
+            },
+            {
+              "textToSpeech": "Q: How can we get the error when there is a problem to upload a file?\n$_FILES['userfile']['error'] contains the error code associated with the uploaded file."
+            },
+            {
+              "textToSpeech": "Q: How can we change the maximum size of the files to be uploaded?\nWe can change the maximum size of files to be uploaded by changing upload_max_filesize in php.ini."
+            },
+            {
+              "textToSpeech": "Q: What does $_ENV mean?\n$_ENV is an associative array of variables sent to the current PHP script via the environment method."
+            },
+            {
+              "textToSpeech": "Q: What does $_COOKIE mean?\n$_COOKIE is an associative array of variables sent to the current PHP script using the HTTP Cookies."
+            },
+            {
+              "textToSpeech": "Q: What does the scope of variables mean?\nThe scope of a variable is the context within which it is defined.\n For the most part, all PHP variables only have a single scope. This single scope spans included and required files as well."
+            },
+            {
+              "textToSpeech": "Q: what the difference between the 'BITWISE AND' operator and the 'LOGICAL AND' operator?\n $a and $b: TRUE if both $a and $b are TRUE. $a & $b: Bits that are set in both $a and $b are set."
+            },
+            {
+              "textToSpeech": "Q: What are the two main string operators?\nThe first is the concatenation operator ('.'), which returns the concatenation of its right and left arguments. The second is ('.='), which appends the argument on the right to the argument on the left."
+            },
+            {
+              "textToSpeech": "Q: What does the array operator '===' means?\n$a === $b TRUE if $a and $b have the same key/value pairs in the same order and of the same types."
+            },
+            {
+              "textToSpeech": "Q: What is the differences between $a != $b and $a !== $b?\n!= means inequality (TRUE if $a is not equal to $b) and !== means non-identity (TRUE if $a is not identical to $b)."
+            },
+            {
+              "textToSpeech": "Q: How can we determine whether a PHP variable is an instantiated object of a certain class?\n To be able to verify whether a PHP variable is an instantiated object of a certain class we use instanceof."
+            },
+            {
+              "textToSpeech": "Q: What is the goto statement useful for?\nThe goto statement can be placed to enable jumping inside the PHP program. The target is pointed by a label followed by a colon, and the instruction is specified as a goto statement followed by the desired target label."
+            },
+            {
+              "textToSpeech": "Q: what is the difference between Exception::getMessage and Exception:: getLine?\\nException::getMessage lets us getting the Exception message and Exception::getLine lets us getting the line in which the exception occurred."
+            },
+            {
+              "textToSpeech": "Q: What does the expression Exception::__toString means?\nException::__toString gives the String representation of the exception."
+            },
+            {
+              "textToSpeech": "Q: How is it possible to parse a configuration file?\n The function parse_ini_file() enables us to load in the ini file specified in filename and returns the settings in it in an associative array."
+            },
+            {
+              "textToSpeech": "Q: How can we determine whether a variable is set?\nThe boolean function isset determines if a variable is set and is not NULL."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between the functions strstr() and stristr()?\nThe string function strstr(string allString, string occ) returns part of allString from the first occurrence of occ to the end of allString. This function is case-sensitive. \n stristr() is identical to strstr() except that it is case insensitive."
+            },
+            {
+              "textToSpeech": "Q: Is it possible to submit a form with a dedicated button?\nIt is possible to use the document.form.submit() function to submit the form. For example: <input type=button value='SUBMIT' onClick='document.form.submit()'>."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between ereg_replace() and eregi_replace()?\n The function eregi_replace() is identical to the function ereg_replace() except that it ignores case distinction when matching alphabetic characters."
+            },
+            {
+              "textToSpeech": "Q: Is it possible to protect special characters in a query string?\n Yes, we use the urlencode() function to be able to protect special characters."
+            },
+            {
+              "textToSpeech": "Q: What are the three classes of errors that can occur in PHP?\n The three basic classes of errors are notices (non-critical), warnings (serious errors) and fatal errors (critical errors)."
+            },
+            {
+              "textToSpeech": "Q: How can we pass the variable through the navigation between the pages?\nIt is possible to pass the variables between the PHP pages using sessions, cookies or hidden form fields."
+            },
+            {
+              "textToSpeech": "Q: Is it possible to extend the execution time of a PHP script?\nThe use of the set_time_limit(int seconds) enables us to extend the execution time of a PHP script. The default limit is 30 seconds."
+            },
+            {
+              "textToSpeech": "Q: Is it possible to destroy a cookie?\nYes, it is possible by setting the cookie with a past expiration time."
+            },
+            {
+              "textToSpeech": "Q: What is the default session time in PHP?\nThe default session time in php is until the closing of the browser."
+            },
+            {
+              "textToSpeech": "Q: Is it possible to use COM component in PHP?\nYes, it's possible to integrate (Distributed) Component Object Model components ((D)COM) in PHP scripts which is provided as a framework."
+            },
+            {
+              "textToSpeech": "Q: Explain whether it is possible to share a single instance of a Memcache between multiple PHP projects?\nYes, it is possible to share a single instance of Memcache between multiple projects. Memcache is a memory store space, and you can run memcache on one or more servers. You can also configure your client to speak to a particular set of instances. So, you can run two different Memcache processes on the same host and yet they are completely independent. Unless, if you have partitioned your data, then it becomes necessary to know from which instance to get the data from or to put into."
+            },
+            {
+              "textToSpeech": "Q: Explain how you can update Memcached when you make changes to PHP?\nWhen PHP changes you can update Memcached by \n Clearing the Cache proactively: Clearing the cache when an insert or update is made Resetting the Cache: It is similar to the first method but rather than just deleting the keys and waiting for the next request for the data to refresh the cache, reset the values after the insert or update."
+            },
+            {
+              "textToSpeech": "Q: What do the initials of PHP stand for? \\n PHP means PHP: Hypertext Preprocessor."
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "More php Questions"
+            },
+            {
+              "title": "C Questions"
+            },
+            {
+              "title": "Java Questions"
+            },
+            {
+              "title": "Python Questions"
+            },
+            {
+              "title": "SQL Questions"
+            },
+            {
+              "title": "DS Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533661395,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "086c085e-76e1-44a8-8cac-be030e41e481",
+      "data": [
+        {
+          "text": "Interview questions on php"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533240010,
+      "isAuto": false
+    },
+    {
+      "id": "b5cb9e47-cc72-4583-9e20-9ad548691746",
+      "data": [
+        {
+          "text": "php"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533240010,
+      "isAuto": false
+    },
+    {
+      "id": "90085bf0-1132-468d-bb96-a32f0561513e",
+      "data": [
+        {
+          "text": "php interview questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533240010,
+      "isAuto": false
+    },
+    {
+      "id": "03d37a61-9fb9-4265-9c1a-a49649141110",
+      "data": [
+        {
+          "text": "Interview questions of "
+        },
+        {
+          "text": "php",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533240010,
+      "isAuto": false
+    },
+    {
+      "id": "169165f5-4d8d-4020-afc3-f34559756037",
+      "data": [
+        {
+          "text": "Questions of "
+        },
+        {
+          "text": "php",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533240010,
+      "isAuto": false
+    },
+    {
+      "id": "6a188bf1-8743-4201-8e74-0e59467e84a1",
+      "data": [
+        {
+          "text": "Questions on php"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533240010,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

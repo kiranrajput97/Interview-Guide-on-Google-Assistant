@@ -1,0 +1,385 @@
+{
+  "id": "6e1b3392-50b4-472d-a720-a23ddf9ab2d2",
+  "name": "JavaScript interview Questions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1cebdbf6-8b62-4ae9-b810-49c5a7cb5ae1",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "items": [
+            {
+              "textToSpeech": "Q: What is === operator?\n=== is called as strict equality operator which returns true when the two operands are having the same value without any type conversion."
+            },
+            {
+              "textToSpeech": "Q: Explain how can you submit a form using JavaScript?\nTo submit a form using JavaScript use document.form[0].submit();\ndocument.form[0].submit();"
+            },
+            {
+              "textToSpeech": "Q: Does JavaScript support automatic type conversion?\nYes JavaScript does support automatic type conversion, it is the common way of type conversion used by JavaScript developers"
+            },
+            {
+              "textToSpeech": "Q: How can the style/class of an element be changed?\nIt can be done in the following way:document.getElementById('myText').style.fontSize = 20?;\nor\ndocument.getElementById('myText').className = 'anyclass';."
+            },
+            {
+              "textToSpeech": "Q: Explain how to read and write a file using JavaScript?\nThere are two ways to read and write a file using JavaScript\nUsing JavaScript extensions\nUsing a web page and Active X objects."
+            },
+            {
+              "textToSpeech": "Q: What are all the looping structures in JavaScript?\n Following are looping structures in Javascript:\nFor\nWhile\ndo-while loops."
+            },
+            {
+              "textToSpeech": "Q: How can you convert the string of any base to integer in JavaScript?\nThe parseInt() function is used to convert numbers between different bases."
+            },
+            {
+              "textToSpeech": "Q: What would be the result of 3+2+'7'?\nSince 3 and 2 are integers, they will be added numerically. And since 7 is a string, its concatenation will be done. So the result would be 57."
+            },
+            {
+              "textToSpeech": "Q: What is JavaScript?\nJavaScript is a client-side as well as server side scripting language that can be inserted into HTML pages and is understood by web browsers. JavaScript is also an Object based Programming language."
+            },
+            {
+              "textToSpeech": "Q: What are JavaScript Data Types?\nFollowing are the JavaScript Data types:\nNumber\nString\nBoolean\nFunction\nObject\nUndefined."
+            },
+            {
+              "textToSpeech": "Q: What is the use of isNaN function?\nisNan function returns true if the argument is not a number otherwise it is false."
+            },
+            {
+              "textToSpeech": "Q: Between JavaScript and an ASP script, which is faster?\nJavaScript is faster. JavaScript is a client-side language and thus it does not need the assistance of the web server to execute. On the other hand, ASP is a server-side language and hence is always slower than JavaScript."
+            },
+            {
+              "textToSpeech": "Q: What is negative infinity?\nNegative Infinity is a number in JavaScript which can be derived by dividing negative number by zero."
+            },
+            {
+              "textToSpeech": "Q: Is it possible to break JavaScript Code into several lines?\nBreaking within a string statement can be done by the use of a backslash, at the end of the first line."
+            },
+            {
+              "textToSpeech": "Q: Which company developed JavaScript?\nNetscape is the software company who developed JavaScript."
+            },
+            {
+              "textToSpeech": "Q: What are undeclared and undefined variables?\nUndeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered."
+            },
+            {
+              "textToSpeech": "Q: What are global variables?\n How are these variable declared and what are the problems associated with using them?\nGlobal variables are those that are available throughout the length of the code, that is, these have no scope. The var keyword is used to declare a local variable or object. If the var keyword is omitted, a global variable is declared."
+            },
+            {
+              "textToSpeech": "Q: What is a prompt box?\nA prompt box is a box which allows the user to enter input by providing a text box. Label and box will be provided to enter the text or number."
+            },
+            {
+              "textToSpeech": "Q: What is 'this' keyword in JavaScript?\n'This' keyword refers to the object from where it was called."
+            },
+            {
+              "textToSpeech": "Q: Which symbol is used for comments in Javascript?\n// for Single line comments and \n /* .... */  multiline comment."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between ViewState and SessionState?\n'ViewState' is specific to a page in a session.\n'SessionState' is specific to user specific data that can be accessed across all pages in the web application."
+            },
+            {
+              "textToSpeech": "Q: Explain how to detect the operating system on the client machine?\nIn order to detect the operating system on the client machine, the navigator.platform string (property) should be used."
+            },
+            {
+              "textToSpeech": "Q: What do mean by NULL in Javascript?\nThe NULL value is used to represent no value or no object. It implies no object or null string, no valid boolean value, no number and no array object."
+            },
+            {
+              "textToSpeech": "Q: What is the function of delete operator?\nThe delete keyword is used to delete the property as well as its value."
+            },
+            {
+              "textToSpeech": "Q: What is an undefined value in JavaScript?\nUndefined value means the:\nVariable used in the code doesn't exist.\nVariable is not assigned to any value.\nProperty doesn't exist."
+            },
+            {
+              "textToSpeech": "Q: What are all the types of Pop up boxes available in JavaScript?\nAlert\nConfirm and\nPrompt."
+            },
+            {
+              "textToSpeech": "Q: What is the use of Void(0)?\nVoid(0) is used to prevent the page from refreshing and parameter 'zero' is passed while calling."
+            },
+            {
+              "textToSpeech": "Q: What is the data type of variables of in JavaScript?\nAll variables in the JavaScript are object data types."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between an alert box and a confirmation box?\nAn alert box displays only one button which is the OK button.\nBut a Confirmation box displays two buttons namely OK and cancel."
+            },
+            {
+              "textToSpeech": "Q: What are escape characters?\nEscape characters (Backslash) is used when working with special characters like single quotes, double quotes, apostrophes and ampersands. Place backslash before the characters to make it display."
+            },
+            {
+              "textToSpeech": "Q: What are JavaScript Cookies?\nCookies are the small test files stored in a computer and it gets created when the user visits the websites to store information that they need. Example could be User Name details and shopping cart information from the previous visits."
+            },
+            {
+              "textToSpeech": "Q: Explain what is pop()method in JavaScript?\nThe pop() method is similar as the shift() method but the difference is that the Shift method works at the start of the array. Also the pop() method take the last element off of the given array and returns it. The array on which is called is then altered."
+            },
+            {
+              "textToSpeech": "Q: Whether JavaScript has concept level scope?\nNo. JavaScript does not have concept level scope. The variable declared inside the function has scope inside the function.d therefore we can potentially insert valid and broken HTML in the document and break it."
+            },
+            {
+              "textToSpeech": "Q: What is break and continue statements?\nBreak statement exits from the current loop.\nContinue statement continues with next statement of the loop."
+            },
+            {
+              "textToSpeech": "Q: What are the two basic groups of dataypes in JavaScript?\nThey are as –\nPrimitive\nReference types.\nPrimitive types are number and Boolean data types. Reference types are more complex types like strings and dates."
+            },
+            {
+              "textToSpeech": "Q: How generic objects can be created?\nGeneric objects can be created as:\nvar I = new object();."
+            },
+            {
+              "textToSpeech": "Q: What is the use of type of operator?\n'Typeof' is an operator which is used to return a string description of the type of a variable."
+            },
+            {
+              "textToSpeech": "Q: Which keywords are used to handle exceptions?\nTry… Catch---finally is used to handle exceptions in the JavaScript."
+            },
+            {
+              "textToSpeech": "Q: Which keyword is used to print the text in the screen?\ndocument.write('Welcome') is used to print the text – Welcome in the screen."
+            },
+            {
+              "textToSpeech": "Q: What is the use of blur function?\nBlur function is used to remove the focus from the specified object."
+            },
+            {
+              "textToSpeech": "Q: What is variable typing?\nVariable typing is used to assign a number to a variable and then assign string to the same variable. Example is as follows:\ni= 8;\ni='john';."
+            },
+            {
+              "textToSpeech": "Q: How to find operating system in the client machine using JavaScript?\nThe 'Navigator.appversion' is used to find the name of the operating system in the client machine."
+            },
+            {
+              "textToSpeech": "Q: What are the different types of errors in JavaScript?\nThere are three types of errors:\nLoad time errors\nRun time errors\n Logical Errors."
+            },
+            {
+              "textToSpeech": "Q: What is the use of Push method in JavaScript?\nThe push method is used to add or append one or more elements to the end of an Array. Using this method, we can append multiple elements by passing multiple arguments."
+            },
+            {
+              "textToSpeech": "Q: What is unshift method in JavaScript?\nUnshift method is like push method which works at the beginning of the array. This method is used to prepend one or more elements to the beginning of the array."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between JavaScript and Jscript?\nBoth are almost similar. JavaScript is developed by Netscape and Jscript was developed by Microsoft ."
+            },
+            {
+              "textToSpeech": "Q: How can the OS of the client machine be detected?\nThe navigator.appVersion string can be used to detect the operating system on the client machine."
+            },
+            {
+              "textToSpeech": "Q: Explain window.onload and onDocumentReady?\nThe onload function is not run until all the information on the page is loaded. This leads to a substantial delay before any code is executed.\nonDocumentReady loads the code just after the DOM is loaded. This allows early manipulation of the code."
+            },
+            {
+              "textToSpeech": "Q: Is JavaScript case sensitive?\n Give an example?\nYes, JavaScript is case sensitive. For example, a function parseInt is not same as the function Parseint."
+            },
+            {
+              "textToSpeech": "Q: What boolean operators can be used in JavaScript?\nThe 'And' Operator (&&), 'Or' Operator (||) and the 'Not' Operator (!) can be used in JavaScript."
+            },
+            {
+              "textToSpeech": "Q: What is the role of break and continue statements?\nBreak statement is used to come out of the current loop while the continue statement continues the current loop with a new recurrence."
+            },
+            {
+              "textToSpeech": "Q: Write the point of difference between web-garden and a web-farm?\nBoth web-garden and web-farm are web hosting systems. The only difference is that web-garden is a setup that includes many processors in a single server while web-farm is a larger setup that uses more than one server."
+            },
+            {
+              "textToSpeech": "Q: How are object properties assigned?\nAssigning properties to objects is done in the same way as a value is assigned to a variable. For example, a form object's action value is assigned as 'submit' in the following manner - Document.form.action='submit'."
+            },
+            {
+              "textToSpeech": "Q: What is the method for reading and writing a file in JavaScript?\nThis can be done by Using JavaScript extensions (runs from JavaScript Editor), example for opening of a file -fh = fopen(getScriptPath(), 0);."
+            },
+            {
+              "textToSpeech": "Q: How are event handlers utilized in JavaScript?\nEvents are the actions that result from activities, such as clicking a link or filling a form, by the user. An event handler is required to manage proper execution of all these events."
+            },
+            {
+              "textToSpeech": "Q: Explain the role of deferred scripts in JavaScript?\nBy default, the parsing of the HTML code, during page loading, is paused until the script has not stopped executing."
+            },
+            {
+              "textToSpeech": "Q: What are the various functional components in JavaScript?\nThe different functional components in JavaScript are-\n First-class functions\nNested functions."
+            },
+            {
+              "textToSpeech": "Q: Define unescape() and escape() functions?\nThe escape () function is responsible for coding a string so as to make the transfer of the information from one computer to the other, across a network.\nThe unescape() function is very important as it decodes the coded string."
+            },
+            {
+              "textToSpeech": "Q: Why it is not advised to use innerHTML in JavaScript?\ninnerHTML content is refreshed every time and thus is slower. There is no scope for validation in innerHTML and, therefore, it is easier to insert rouge code in the document and, thus, make the web page unstable."
+            },
+            {
+              "textToSpeech": "Q: What does the following statement declares?\nvar myArray = [[[]]];\nIt declares a three dimensional array."
+            },
+            {
+              "textToSpeech": "Q: How are JavaScript and ECMA Script related?\nECMA Script are like rules and guideline while Javascript is a scripting language used for web development."
+            },
+            {
+              "textToSpeech": "Q: Enumerate the differences between Java and JavaScript?\nJava is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages."
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "More JavaScript Questions"
+            },
+            {
+              "title": "SQL Questions"
+            },
+            {
+              "title": "DS Questions"
+            },
+            {
+              "title": "PHP Questions"
+            },
+            {
+              "title": "Python Questions"
+            },
+            {
+              "title": "C Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534356982,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7b05bb7c-938e-4f55-8037-af98d91b5440",
+      "data": [
+        {
+          "text": "javascript",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        },
+        {
+          "text": " interview questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "8c23776e-0426-497d-86fe-38515f7147ee",
+      "data": [
+        {
+          "text": "Questions of javascript"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "022129a8-0416-43ef-b46e-564542260ec1",
+      "data": [
+        {
+          "text": "Questions for javascript"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "60705b9b-9b5c-4dbf-b721-51dbe2bcc2aa",
+      "data": [
+        {
+          "text": "Questions on javascript"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "47945182-c942-4772-87ff-3104bea7a1cd",
+      "data": [
+        {
+          "text": "interview questions for javascript"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "80f88b18-13ca-4408-8902-69ccfeb09095",
+      "data": [
+        {
+          "text": "interview questions on javascript"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "d8bde623-827b-44a5-87c9-33094a3c5ab8",
+      "data": [
+        {
+          "text": "javascript Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "81410017-53a5-4cb8-ba0c-b832d03f1c08",
+      "data": [
+        {
+          "text": "javascript"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    },
+    {
+      "id": "dd942d99-c135-4336-b164-6f07496a5f9b",
+      "data": [
+        {
+          "text": "interview questions of javascript"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534356982,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

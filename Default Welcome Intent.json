@@ -1,0 +1,106 @@
+{
+  "id": "dec8c7a3-246b-478f-8d81-cc363e81c189",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Good day! I am Interview Guide, an app which will help you prepare for your interview or to enhance your programming knowledge.\nLet's get started."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "C Questions"
+            },
+            {
+              "title": "C++ Questions"
+            },
+            {
+              "title": "Java Questions"
+            },
+            {
+              "title": "Python Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536452517,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "bd13aad6-e7fc-440f-8fff-d19f9fbd64eb",
+      "data": [
+        {
+          "text": "howdy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8df8e9ad-8a4d-4a98-a299-29fa8b87de6c",
+      "data": [
+        {
+          "text": "I Would  like to learn about the Interview Guide"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1536452323,
+      "isAuto": false
+    },
+    {
+      "id": "13bed7d4-1092-4680-86c2-64ed03dc3d28",
+      "data": [
+        {
+          "text": "heya"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

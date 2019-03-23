@@ -1,0 +1,270 @@
+{
+  "id": "53ca5dca-bcb2-4183-85d3-a325052d22cb",
+  "name": "Python Interview Questions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "items": [
+            {
+              "textToSpeech": "Q.What is Python?\n What are the benefits of using Python? \n Python is a programming language with objects, modules, threads, exceptions and automatic memory management. The benefits of pythons are that it is simple and easy, portable, extensible, build-in data structure and it is an open source."
+            },
+            {
+              "textToSpeech": "Q.What is PEP 8? \n PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable."
+            },
+            {
+              "textToSpeech": "Q.What is pickling and unpickling?\nPickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling.  While the process of retrieving original Python objects from the stored string representation is called unpickling."
+            },
+            {
+              "textToSpeech": "Q.How Python is interpreted?\nPython language is an interpreted language. Python program runs directly from the source code. It converts the source code that is written by the programmer into an intermediate language, which is again translated into machine language that has to be executed."
+            },
+            {
+              "textToSpeech": "Q.How memory is managed in Python?\nPython memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap and interpreter takes care of this Python private heap.The allocation of Python heap space for Python objects is done by Python memory manager.  The core API gives access to some tools for the programmer to code.Python also have an inbuilt garbage collector, which recycle all the unused memory and frees the memory and makes it available to the heap space.python."
+            },
+            {
+              "textToSpeech": "Q.What are the tools that help to find bugs or perform static analysis?\nPyChecker is a static analysis tool that detects the bugs in Python source code and warns about the style and complexity of the bug. Pylint is another tool that verifies whether the module meets the coding standard."
+            },
+            {
+              "textToSpeech": "Q.What are Python decorators?\nA Python decorator is a specific change that we make in Python syntax to alter functions easily."
+            },
+            {
+              "textToSpeech": "Q.How are arguments passed by value or by reference?\nEverything in Python is an object and all variables hold references to the objects. The references values are according to the functions; as a result you cannot change the value of the references. However, you can change the objects if it is mutable."
+            },
+            {
+              "textToSpeech": "Q.What is Dict and List comprehensions are?\nThey are syntax constructions to ease the creation of a Dictionary or List based on existing iterable."
+            },
+            {
+              "textToSpeech": "Q.What is namespace in Python?\nIn Python, every name introduced has a place where it lives and can be hooked for. This is known as namespace. It is like a box where a variable name is mapped to the object placed.  Whenever the variable is searched out, this box will be searched, to get corresponding object."
+            },
+            {
+              "textToSpeech": "Q.What is lambda in Python?\nIt is a single expression anonymous function often used as inline function."
+            },
+            {
+              "textToSpeech": "Q.Why lambda forms in python does not have statements?\nA lambda form in python does not have statements as it is used to make new function object and then return them at runtime."
+            },
+            {
+              "textToSpeech": "Q.What is pass in Python?\nPass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there."
+            },
+            {
+              "textToSpeech": "Q.In Python what are iterators?\nIn Python, iterators are used to iterate a group of elements, containers like list."
+            },
+            {
+              "textToSpeech": "Q.What is unittest in Python?\nA unit testing framework in Python is known as unittest.  It supports sharing of setups, automation testing, shutdown code for tests, aggregation of tests into collections etc."
+            },
+            {
+              "textToSpeech": "Q.In Python what is slicing?\nA mechanism to select a range of items from sequence types like list, tuple, strings etc. is known as slicing."
+            },
+            {
+              "textToSpeech": "Q.What are generators in Python?\nThe way of implementing iterators are known as generators.  It is a normal function except that it yields expression in the function."
+            },
+            {
+              "textToSpeech": "Q.What is docstring in Python?\nA Python documentation string is known as docstring, it is a way of documenting Python functions, modules and classes."
+            },
+            {
+              "textToSpeech": "Q.How can you copy an object in Python?\nTo copy an object in Python, you can try copy.copy () or copy.deepcopy() for the general case. You cannot copy all objects but most of them."
+            },
+            {
+              "textToSpeech": "Q.What is negative index in Python?\nPython sequences can be index in positive and negative numbers.   For positive index, 0 is the first index, 1 is the second index and so forth.  For negative index, (-1) is the last index and (-2) is the second last index and so forth."
+            },
+            {
+              "textToSpeech": "Q.How you can convert a number to a string?\nIn order to convert a number into a string, use the inbuilt function str().  If you want a octal or hexadecimal representation, use the inbuilt function oct() or hex()."
+            },
+            {
+              "textToSpeech": "Q.What is the difference between Xrange and range?\nXrange returns the xrange object while range returns the list, and uses the same memory and no matter what the range size is."
+            },
+            {
+              "textToSpeech": "Q.What is module and package in Python?\nIn Python, module is the way to structure program. Each Python program file is a module, which imports other modules like objects and attributes."
+            },
+            {
+              "textToSpeech": "Q.Mention what are the rules for local and global variables in Python?\nLocal variables: If a variable is assigned a new value anywhere within the function’s body, it’s assumed to be local,Global variables: Those variables that are only referenced inside a function are implicitly global."
+            },
+            {
+              "textToSpeech": "Q.How can you share global variables across modules?\nTo share global variables across modules within a single program, create a special module. Import the config module in all modules of your application. The module will be available as a global variable across modules."
+            },
+            {
+              "textToSpeech": "Q.Explain how can you make a Python Script executable on Unix?\nTo make a Python Script executable on Unix, you need to do two things,Script file’s mode must be executable andthe first line must begin with # ( #!/usr/local/bin/python)."
+            },
+            {
+              "textToSpeech": "Q.Explain how to delete a file in Python?\nBy using a command os.remove (filename) or os.unlink(filename)."
+            },
+            {
+              "textToSpeech": "Q.Explain how can you generate random numbers in Python?\nTo generate random numbers in Python, you need to import command as\nimport random\nrandom.random()."
+            },
+            {
+              "textToSpeech": "Q.Explain how can you access a module written in Python from C?\nYou can access a module written in Python from C by following method,\nModule =  =PyImport_ImportModule(“<modulename>”);."
+            },
+            {
+              "textToSpeech": "Q.Mention the use of // operator in Python?\nIt is a Floor Divisionoperator , which is used for dividing two operands with the result as quotient showing only digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0."
+            },
+            {
+              "textToSpeech": "Q.Mention five benefits of using Python?\nPython comprises of a huge standard library for most Internet platforms like Email, HTML, etc.\nPython does not require explicit memory management as the interpreter itself allocates the memory to new variables and free them automatically\nProvide easy readability due to use of square brackets\nEasy-to-learn for beginners\nHaving the built-in data types saves programming time and effort from declaring variables."
+            },
+            {
+              "textToSpeech": "Q.Mention the use of the split function in Python?\nThe use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all words present in the string."
+            },
+            {
+              "textToSpeech": "Q.Explain what is Flask & its benefits?\nFlask is a web micro framework for Python based on “Werkzeug, Jinja 2 and good intentions” BSD licensed. Werkzeug and jingja are two of its dependencies,Flask is part of the micro-framework. Which means it will have little to no dependencies on external libraries.  It makes the framework light while there is little dependency to update and less security bugs."
+            },
+            {
+              "textToSpeech": "Q.Mention what is Flask-WTF?\nFlask-WTF offers simple integration with WTForms."
+            },
+            {
+              "textToSpeech": "Q.Explain what is the common way for the Flask script to work?\nThe common way for the flask script to work is Either it should be the import path for your application Or the path to a Python file"
+            },
+            {
+              "textToSpeech": "Q.Explain how you can access sessions in Flask?\nA session basically allows you to remember information from one request to another.  In a flask, it uses a signed cookie so the user can look at the session contents and modify. The user can modify the session if only it has the secret key Flask.secret_key."
+            },
+            {
+              "textToSpeech": "Q.Which command do you use to exit help window or help command prompt?\nA.quit."
+            },
+            {
+              "textToSpeech": "Q.Name the File-related modules in Python?\nA.Python provides libraries \n modules with functions that enable you to manipulate text files and binary files on file system. Using them you can create files, update their contents, copy, and delete files. The libraries are : os, os.path, and shutil."
+            },
+            {
+              "textToSpeech": "Q.When does a dictionary is used instead of a list?\nA.Dictionaries – are best suited when the data is labelled, i.e., the data is a record with field names.\nlists – are better option to store collections of un-labelled items say all the files and sub directories in a folder. List comprehension is used to construct lists in a natural way.\nGenerally Search operation on dictionary object is faster than searching a list object."
+            },
+            {
+              "textToSpeech": "Q.How many kinds of sequences are supported by Python?\n What are they?\nA.Python supports 7 sequence types. They are str, list, tuple, unicode, bytearray, xrange, and buffer. where xrange is deprecated in python 3.5.X."
+            },
+            {
+              "textToSpeech": "Q.Name few methods for matching and searching the occurrences of a pattern in a given text String ?\nA.There are 4 different methods in “re” module to perform pattern matching. They are:\nmatch() – matches the pattern only to the beginning of the String. search() – scan the string and look for a location the pattern matches findall() – finds all the occurrences of match and return them as a list\nfinditer() – finds all the occurrences of match and return them as an iterator."
+            },
+            {
+              "textToSpeech": "Q.What is JSON?\nA.JSON – stands for JavaScript Object Notation. It is a popular data format for storing data in NoSQL databases."
+            },
+            {
+              "textToSpeech": "Q.Name few Python modules for Statistical, Numerical and scientific computations ?\nnumPy – this module provides an array/matrix type, and it is useful for doing computations on arrays. \nscipy – this module provides methods for doing numeric integrals, solving differential equations, etc\n pylab – is a module for generating and saving plots\n matplotlib – used for managing data and generating plots."
+            },
+            {
+              "textToSpeech": "Q.What is TkInter?\nTkInter is Python library. It is a toolkit for GUI development. It provides support for various GUI tools or widgets (such as buttons, labels, text boxes, radio buttons, etc) that are used in GUI applications. The common attributes of them include Dimensions, Colors, Fonts, Cursors, etc."
+            },
+            {
+              "textToSpeech": "Q.Is Python object oriented?\n what is object oriented programming?\nYes. Python is Object Oriented Programming language. OOP is the programming paradigm based on classes and instances of those classes called objects. The features of OOP are \n Encapsulation, Data Abstraction, Inheritance, Polymorphism."
+            },
+            {
+              "textToSpeech": "Q.Differentiate between .py and .pyc files?\nBoth .py and .pyc files holds the byte code. “.pyc” is a compiled version of Python file. This file is automatically generated by Python to improve performance. The .pyc file is having byte code which is platform independent and can be executed on any operating system that supports .pyc format."
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "More Python Questions"
+            },
+            {
+              "title": "DS Questions"
+            },
+            {
+              "title": "Java Questions"
+            },
+            {
+              "title": "php Questions"
+            },
+            {
+              "title": "SQL Questions"
+            },
+            {
+              "title": "C Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533661533,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "162467d0-e5b8-4c82-ad53-d2fbe72a069b",
+      "data": [
+        {
+          "text": "questions of python?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533661533,
+      "isAuto": false
+    },
+    {
+      "id": "d77cb553-e650-49ef-9586-c32bd83b2f9d",
+      "data": [
+        {
+          "text": "python Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533661533,
+      "isAuto": false
+    },
+    {
+      "id": "47984e1c-67a3-48da-bd07-5e5bc570cbf7",
+      "data": [
+        {
+          "text": "tell me something about python?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533661533,
+      "isAuto": false
+    },
+    {
+      "id": "e105a3a7-834f-4797-b03f-fa7e27cd73d2",
+      "data": [
+        {
+          "text": "python interview questions?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533661533,
+      "isAuto": false
+    },
+    {
+      "id": "4e33d1ff-cfe7-42e9-8fa7-c8e668ecd599",
+      "data": [
+        {
+          "text": "questions on python language please?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1533661533,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

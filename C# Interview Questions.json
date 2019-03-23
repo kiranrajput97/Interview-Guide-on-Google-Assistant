@@ -1,0 +1,478 @@
+{
+  "id": "d007a2f4-fe2b-4b46-a1a6-68617ae72485",
+  "name": "C# Interview Questions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3760b6e8-79a1-4413-8ea9-7704e8f61811",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "items": [
+            {
+              "textToSpeech": "Q: What is C#?\\nC# is an object oriented, type safe and managed language that is compiled by .Net framework to generate Microsoft Intermediate Language."
+            },
+            {
+              "textToSpeech": "Q: Can multiple catch blocks be executed?\nNo, Multiple catch blocks can’t be executed. Once the proper catch code executed, the control is transferred to the finally block and then the code that follows the finally block gets executed."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between public, static and void?\nPublic declared variables or methods are accessible anywhere in the application. Static declared variables or methods are globally accessible without creating an instance of the class."
+            },
+            {
+              "textToSpeech": "Q: What is an object?\nAn object is an instance of a class through which we access the methods of that class. “New” keyword is used to create an object. A class that creates an object in memory will contain the information about the methods, variables and behavior of that class."
+            },
+            {
+              "textToSpeech": "Q: Define Constructors?\n  A constructor is a member function in a class that has the same name as its class. The constructor is automatically invoked whenever an object class is created. It constructs the values of data members while initializing the class."
+            },
+            {
+              "textToSpeech": "Q: What is Jagged Arrays?\nThe array which has elements of type array is called jagged array. The elements can be of different dimensions and sizes. We can also call jagged array as Array of arrays."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between ref & out parameters?\nAn argument passed as ref must be initialized before passing to the method whereas out parameter needs not to be initialized before passing to a method."
+            },
+            {
+              "textToSpeech": "Q: What is the use of using statement in C#?\n  The using block is used to obtain a resource and use it and then automatically dispose of when the execution of block completed."
+            },
+            {
+              "textToSpeech": "Q: What is serialization?\n  When we want to transport an object through network then we have to convert the object into a stream of bytes. The process of converting an object into a stream of bytes is called Serialization."
+            },
+            {
+              "textToSpeech": "Q: Can “this” be used within a static method?\n  We can’t use ‘This’ in a static method because we can only use static variables/methods in a static method."
+            },
+            {
+              "textToSpeech": "Q: What is difference between constants and read-only?\n  Constant variables are declared and initialized at compile time. The value can’t be changed afterwards.\n Read only is used only when we want to assign the value at run time."
+            },
+            {
+              "textToSpeech": "Q: What is an interface class?\n  Interface is an abstract class which has only public abstract methods and the methods only have the declaration and not the definition. These abstract methods must be implemented in the inherited classes."
+            },
+            {
+              "textToSpeech": "Q: What are Custom Control and User Control?\n  Custom Controls are controls generated as compiled code (Dlls), those are easier to use and can be added to toolbox. Developers can drag and drop controls to their web forms."
+            },
+            {
+              "textToSpeech": "Q: What are sealed classes in C#?\n  We create sealed classes when we want to restrict the class to be inherited. Sealed modifier used to prevent derivation from a class. If we forcefully specify a sealed class as base class then a compile-time error occurs."
+            },
+            {
+              "textToSpeech": "Q: What is method overloading?\n  Method overloading is creating multiple methods with the same name with unique signatures in the same class. When we compile, the compiler uses overload resolution to determine the specific method to be invoke."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between Array and Arraylist?\n  In an array, we can have items of the same type only. The size of the array is fixed. An arraylist is similar to an array but it doesn’t have a fixed size."
+            },
+            {
+              "textToSpeech": "Q: Can a private virtual method be overridden?\n  No, because they are not accessible outside the class."
+            },
+            {
+              "textToSpeech": "Q: Describe the accessibility modifier “protected internal”.Protected Internal variables/methods are accessible within the same assembly and also from the classes that are derived from this parent class."
+            },
+            {
+              "textToSpeech": "Q: What are the differences between System.String and System.Text.StringBuilder classes?\nSystem.String is immutable. When we modify the value of a string variable then a new memory is allocated to the new value and the previous memory allocation released.\n System.StringBuilder was designed to have concept of a mutable string where a variety of operations can be performed without allocation separate memory location for the modified string."
+            },
+            {
+              "textToSpeech": "Q: What’s the difference between the System.Array.CopyTo() and System.Array.Clone() ?\nUsing Clone() method, we creates a new array object containing all the elements in the original array and using CopyTo() method, all the elements of existing array copies into another existing array. Both the methods perform a shallow copy."
+            },
+            {
+              "textToSpeech": "Q: How can we sort the elements of the array in descending order?\nUsing Sort() methods followed by Reverse() method."
+            },
+            {
+              "textToSpeech": "Q: What’s the difference between an interface and abstract class?\nInterfaces have all the methods having only declaration but no definition. In an abstract class, we can have some concrete methods. In an interface class, all the methods are public. An abstract class may have private methods."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between Finalize() and Dispose() methods?\nDispose() is called when we want for an object to release any unmanaged resources with them. On the other hand Finalize() is used for the same purpose but it doesn’t assure the garbage collection of an object."
+            },
+            {
+              "textToSpeech": "Q: What are circular references?\nCircular reference is situation in which two or more resources are interdependent on each other causes the lock condition and make the resources unusable."
+            },
+            {
+              "textToSpeech": "Q: What are generics in C#.NET?\nGenerics are used to make reusable code classes to decrease the code redundancy, increase type safety and performance. Using generics, we can create collection classes. To create generic collection, System.Collections.Generic namespace should be used instead of classes such as ArrayList in the System."
+            },
+            {
+              "textToSpeech": "Q: What is an object pool in .NET?\nAn object pool is a container having objects ready to be used. It tracks the object that is currently in use, total number of objects in the pool. This reduces the overhead of creating and re-creating objects."
+            },
+            {
+              "textToSpeech": "Q: What are Custom Exceptions?\nSometimes there are some errors that need to be handeled as per user requirements. Custom exceptions are used for them and are used defined exceptions."
+            },
+            {
+              "textToSpeech": "Q: What are delegates?\n Delegates are same are function pointers in C++ but the only difference is that they are type safe unlike function pointers. Delegates are required because they can be used to write much more generic type safe functions."
+            },
+            {
+              "textToSpeech": "Q: How do you inherit a class into other class in C#?\nColon is used as inheritance operator in C#. Just place a colon and then the class name.public class DerivedClass : BaseClass."
+            },
+            {
+              "textToSpeech": "Q: What is the base class in .net from which all the classes are derived from?\nSystem.Object."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between method overriding and method overloading?\nIn method overriding, we change the method definition in the derived class that changes the method behavior. Method overloading is creating a method with the same name within the same class having different signatures."
+            },
+            {
+              "textToSpeech": "Q: What are the different ways a method can be overloaded?\nMethods can be overloaded using different data types for parameter, different order of parameters, and different number of parameters."
+            },
+            {
+              "textToSpeech": "Q: Why can’t you specify the accessibility modifier for methods inside the interface?\nIn an interface, we have virtual methods that do not have method definition. All the methods are there to be overridden in the derived class. That’s why they all are public."
+            },
+            {
+              "textToSpeech": "Q: How can we set class to be inherited, but prevent the method from being over-ridden?\nDeclare the class as public and make the method sealed to prevent it from being overridden."
+            },
+            {
+              "textToSpeech": "Q: What happens if the inherited interfaces have conflicting method names?\nImplement is up to you as the method is inside your own class. There might be problem when the methods from different interfaces expect different data, but as far as compiler cares you’re okay."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between a Struct and a Class?\nStructs are value-type variables and classes are reference types. Structs stored on the stack, causes additional overhead but faster retrieval. Structs cannot be inherited."
+            },
+            {
+              "textToSpeech": "Q: How we can create an array with non-default values?\nWe can create an array with non-default values using Enumerable.Repeat."
+            },
+            {
+              "textToSpeech": "Q: What is difference between is and as operators in c#?\n“is” operator is used to check the compatibility of an object with a given type and it returns the result as Boolean.“as” operator is used for casting of object to a type or a class."
+            },
+            {
+              "textToSpeech": "Q: What’s a multicast delegate?\nA delegate having multiple handlers assigned to it is called multicast delegate. Each handler is assigned to a method."
+            },
+            {
+              "textToSpeech": "Q: What are indexers in C# .NET?\nIndexers are known as smart arrays in C#. It allows the instances of a class to be indexed in the same way as array."
+            },
+            {
+              "textToSpeech": "Q: What are C# attributes and its significance?\nC# provides developers a way to define declarative tags on certain entities eg. Class, method etc. are called attributes. The attribute’s information can be retrieved at runtime using Reflection."
+            },
+            {
+              "textToSpeech": "Q: What is difference between the “throw” and “throw ex” in .NET?\n“Throw” statement preserves original error stack whereas “throw ex” have the stack trace from their throw point. It is always advised to use “throw” because it provides more accurate error information."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between directcast and ctype?\nDirectCast is used to convert the type of an object that requires the run-time type to be the same as the specified type in DirectCast.\nCtype is used for conversion where the conversion is defined between the expression and the type."
+            },
+            {
+              "textToSpeech": "Q: Is C# code is managed or unmanaged code?\nC# is managed code because Common language runtime can compile C# code to Intermediate language."
+            },
+            {
+              "textToSpeech": "Q: What is C-Sharp (C#)?C# is a type-safe, managed and object oriented language, which is compiled by .Net framework for generating intermediate language (IL)."
+            },
+            {
+              "textToSpeech": "Q: List some of the advantages of C#?Below are the advantages of C# -\nEasy to learn\nObject oriented\nComponent oriented\nPart of .NET framework."
+            },
+            {
+              "textToSpeech": "Q: What are IDE’s provided by Microsoft for C# development?Below are the IDE’s used for C# development –\nVisual Studio Express (VCE)\nVisual Studio (VS)\nVisual Web Developer."
+            },
+            {
+              "textToSpeech": "Q: Explain sealed class in C#?\nSealed class is used to prevent the class from being inherited from other classes. So “sealed” modifier also can be used with methods to avoid the methods to override in the child classes."
+            },
+            {
+              "textToSpeech": "Q: List out the differences between Array and ArrayList in C#?\nArray stores the values or elements of same data type but arraylist stores values of different datatypes.\nArrays will use the fixed length but arraylist does not uses fixed length like array."
+            },
+            {
+              "textToSpeech": "Q: Why to use “using” in C#?\n“Using” statement calls – “dispose” method internally, whenever any exception occurred in any method call and in “Using” statement objects are read only and cannot be reassignable or modifiable."
+            },
+            {
+              "textToSpeech": "Q: Explain namespaces in C#?\nNamespaces are containers for the classes. We will use namespaces for grouping the related classes in C#. “Using” keyword can be used for using the namespace in other namespace."
+            },
+            {
+              "textToSpeech": "Q: Why to use keyword “const” in C#?\n Give an example.“Const” keyword is used for making an entity constant. We can’t reassign the value to constant."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between “constant” and “readonly” variables in C#?\n“Const” keyword is used for making an entity constant. We cannot modify the value later in the code. Value assigning is mandatory to constant variables.readonly” variable value can be changed during runtime and value to readonly variables can be assigned in the constructor or at the time of declaration."
+            },
+            {
+              "textToSpeech": "Q: Explain “static” keyword in C#?\n“Static” keyword can be used for declaring a static member. If the class is made static then all the members of the class are also made static. If the variable is made static then it will have a single instance and the value change is updated in this instance."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between “dispose” and “finalize” variables in C#?\nDispose - This method uses interface – “IDisposable” interface and it will free up both managed and unmanaged codes like – database connection, files etc.\nFinalize - This method is called internally unlike Dispose method which is called explicitly. It is called by garbage collector and can’t be called from the code."
+            },
+            {
+              "textToSpeech": "Q: How the exception handling is done in C#?\nIn C# there is a “try… catch” block to handle the error."
+            },
+            {
+              "textToSpeech": "Q: Can we execute multiple catch blocks in C#?\nNo. Once any exception is occurred it executes specific exception catch block and the control comes out."
+            },
+            {
+              "textToSpeech": "Q: Why to use “finally” block in C#?\n“Finally” block will be executed irrespective of exception. So while executing the code in try block when exception is occurred, control is returned to catch block and at last “finally” block will be executed. So closing connection to database / releasing the file handlers can be kept in “finally” block."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between “finalize” and “finally” methods in C#?\nFinalize – This method is used for garbage collection. So before destroying an object this method is called as part of clean up activity.\nFinally – This method is used for executing the code irrespective of exception occurred or not."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between “throw ex” and “throw” methods in C#?\n“throw ex” will replace the stack trace of the exception with stack trace info of re throw point.\n“throw” will preserve the original stack trace info."
+            },
+            {
+              "textToSpeech": "Q: Can we have only “try” block without “catch” block in C#?\nYes we can have only try block without catch block but we have to have finally block."
+            },
+            {
+              "textToSpeech": "Q: List out two different types of errors in C#?\nBelow are the types of errors in C# -\nCompile Time Error\nRun Time Error."
+            },
+            {
+              "textToSpeech": "Q: Do we get error while executing “finally” block in C#?\nYes. We may get error in finally block."
+            },
+            {
+              "textToSpeech": "Q: Mention the assembly name where System namespace lies in C#?\nAssembly Name – mscorlib.dll."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between 'out' and 'ref' parameters in C#?\n'out' parameter can be passed to a method and it need not be initialized where as 'ref' parameter has to be initialized before it is used."
+            },
+            {
+              "textToSpeech": "Q: Explain Jagged Arrays in C#?\nIf the elements of an array is an array then it’s called as jagged array. The elements can be of different sizes and dimensions."
+            },
+            {
+              "textToSpeech": "Q: Can we use “this” inside a static method in C#?\nNo. We can’t use “this” in static method."
+            },
+            {
+              "textToSpeech": "Q: What are value types in C#?\nBelow are the list of value types in C# -decimal\nint\nbyte\nenum\ndouble\nlong\nfloat."
+            },
+            {
+              "textToSpeech": "Q: What are reference types in C#?\nBelow are the list of reference types in C# -\nclass\nstring\ninterface\nobject."
+            },
+            {
+              "textToSpeech": "Q: Can we override private virtual method in C#?\nNo. We can’t override private virtual methods as it is not accessible outside the class."
+            },
+            {
+              "textToSpeech": "Q: Can we use delegates for asynchronous method calls in C#?\nYes. We can use delegates for asynchronous method calls."
+            },
+            {
+              "textToSpeech": "Q: What are the uses of delegates in C#?\nBelow are the list of uses of delegates in C# -\nCallback Mechanism\nAsynchronous Processing\nAbstract and Encapsulate method\nMulticasting."
+            },
+            {
+              "textToSpeech": "Q: What is Nullable Types in C#?\nVariable types does not hold null values so to hold the null values we have to use nullable types. So nullable types can have values either null or other values as well.\nEg: Int?\n mynullablevar = null;."
+            },
+            {
+              "textToSpeech": "Q: Why to use “Nullable Coalescing Operator” (?\n?\n) in C#?\nNullable Coalescing Operator can be used with reference types and nullable value types. So if the first operand of the expression is null then the value of second operand is assigned to the variable. For example,\ndouble?\n myFirstno = null;\ndouble mySecno;\nmySecno = myFirstno ?\n?\n 10.11;."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between 'as' and 'is' operators in C#?\n'as' operator is used for casting object to type or class.\n'is' operator is used for checking the object with type and this will return a Boolean value."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between CType and Directcast in C#?\nCType is used for conversion between type and the expression.Directcast is used for converting the object type which requires run time type to be the same as specified type."
+            },
+            {
+              "textToSpeech": "Q: Is C# code is unmanaged or managed code?\nC# code is managed code because the compiler – CLR will compile the code to Intermediate Language."
+            },
+            {
+              "textToSpeech": "Q: Why to use lock statement in C#?\nLock will make sure one thread will not intercept the other thread which is running the part of code. So lock statement will make the thread wait, block till the object is being released."
+            },
+            {
+              "textToSpeech": "Q: How to check whether hash table contains specific key in C#?\nMethod – 'ContainsKey' can be used to check the key in hash table. Below is the sample code for the same –\nEg: myHashtbl.ContainsKey('1');."
+            },
+            {
+              "textToSpeech": "Q: What is enum in C#?\nenum keyword is used for declaring an enumeration, which consists of named constants and it is called as enumerator lists. Enums are value types in C# and these can’t be inherited. Below is the sample code of using Enums \nEg: enum Fruits { Apple, Orange, Banana, WaterMelon};."
+            },
+            {
+              "textToSpeech": "Q: Which are the loop types available in C#?\nBelow are the loop types in C# -\nFor\nWhile\nDo.. While."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between “continue” and “break” statements in C#?\n“continue” statement is used to pass the control to next iteration. This statement can be used with – “while”, “for”, “foreach” loops.\n“break” statement is used to exit the loop."
+            },
+            {
+              "textToSpeech": "Q: What are the types of comment in C# with examples?\\ni.Single line\\nii. Multiple line (/* */)\\niii. XML Comments (///)."
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "More C# Questions"
+            },
+            {
+              "title": "PHP Questions"
+            },
+            {
+              "title": "Python Questions"
+            },
+            {
+              "title": "SQL Questions"
+            },
+            {
+              "title": "DS Questions"
+            },
+            {
+              "title": "Java Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534359742,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "27eeb92b-85cb-4fab-99cb-52ee0fd57b49",
+      "data": [
+        {
+          "text": "CSharp",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "ba47e188-d5b4-45f3-9698-80d8a9e3cb92",
+      "data": [
+        {
+          "text": "CSharp Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "ad259047-01a5-4d20-a013-38c2054851e5",
+      "data": [
+        {
+          "text": " Interview Questions of C#"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "e6b09120-4a4f-4013-b8b5-4dece8c6e3f6",
+      "data": [
+        {
+          "text": "c sharp",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "f63cdb86-740e-4395-9530-69afb2261b65",
+      "data": [
+        {
+          "text": "CSharp interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "353a448b-2740-4b2a-9fb6-64d6e2713ef3",
+      "data": [
+        {
+          "text": "Interview Questions on "
+        },
+        {
+          "text": "C sharp",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "874e7efd-269c-4810-b299-12874ef671f3",
+      "data": [
+        {
+          "text": "C# Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "cfd98074-f4b9-454a-9b99-7059573120f1",
+      "data": [
+        {
+          "text": "C#"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "49eac10a-2f68-401d-b55b-4c0cc85a6074",
+      "data": [
+        {
+          "text": "tell me about C#"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "1fbb1449-a8a7-48f5-9cc4-bb2ab7002e6d",
+      "data": [
+        {
+          "text": "C# Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    },
+    {
+      "id": "7659653b-3284-4481-bd2b-4eec5c41c4df",
+      "data": [
+        {
+          "text": "Interview Questions for C#"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534359742,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

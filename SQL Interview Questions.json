@@ -1,0 +1,418 @@
+{
+  "id": "6824b8c7-f5fc-4cb9-b2e7-70bb9662d48f",
+  "name": "SQL Interview Questions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "items": [
+            {
+              "textToSpeech": "Q: What is DBMS?\\n\nA Database Management System (DBMS) is a program that controls creation, maintenance and use of a database. DBMS can be termed as File Manager that manages data in a database rather than saving it in file systems."
+            },
+            {
+              "textToSpeech": "Q: What is SQL?\nSQL stands for Structured Query Language , and it is used to communicate with the Database. This is a standard language used to perform tasks such as retrieval, updation, insertion and deletion of data from a database."
+            },
+            {
+              "textToSpeech": "Q: What is a Database?\nDatabase is nothing but an organized form of data for easy access, storing, retrieval and managing of data. This is also known as structured form of data which can be accessed in many ways.Example: School Management Database, Bank Management Database."
+            },
+            {
+              "textToSpeech": "Q: What is a primary key?\nA primary key is a combination of fields which uniquely specify a row. This is a special kind of unique key, and it has implicit NOT NULL constraint. It means, Primary key values cannot be NULL."
+            },
+            {
+              "textToSpeech": "Q: What is a unique key?\n A Unique key constraint uniquely identified each record in the database. This provides uniqueness for the column or set of columns.\n A Primary key constraint has automatic unique constraint defined on it. But not, in the case of Unique Key.\nThere can be many unique constraint defined per table, but only one Primary key constraint defined per table."
+            },
+            {
+              "textToSpeech": "Q: What is a foreign key?\nA foreign key is one table which can be related to the primary key of another table. Relationship needs to be created between two tables by referencing foreign key with the primary key of another table."
+            },
+            {
+              "textToSpeech": "Q: What is a join?\nThis is a keyword used to query data from more tables based on the relationship between the fields of the tables. Keys play a major role when JOINs are used."
+            },
+            {
+              "textToSpeech": "Q: What is normalization?\nNormalization is the process of minimizing redundancy and dependency by organizing fields and table of a database. The main aim of Normalization is to add, delete or modify field that can be made in a single table."
+            },
+            {
+              "textToSpeech": "Q: What is Denormalization.DeNormalization is a technique used to access the data from higher to lower normal forms of database. It is also process of introducing redundancy into a table by incorporating data from the related tables."
+            },
+            {
+              "textToSpeech": "Q: What is a View?\nA view is a virtual table which consists of a subset of data contained in a table. Views are not virtually present, and it takes less space to store. View can have data of one or more tables combined, and it is depending on the relationship."
+            },
+            {
+              "textToSpeech": "Q: What is an Index?\nAn index is performance tuning method of allowing faster retrieval of records from the table. An index creates an entry for each value and it will be faster to retrieve data."
+            },
+            {
+              "textToSpeech": "Q: What is a Cursor?\nA database Cursor is a control which enables traversal over the rows or records in the table. This can be viewed as a pointer to one row in a set of rows. Cursor is very much useful for traversing such as retrieval, addition and removal of database records."
+            },
+            {
+              "textToSpeech": "Q: What is a query?\nA DB query is a code written in order to get the information back from the database. Query can be designed in such a way that it matched with our expectation of the result set. Simply, a question to the Database."
+            },
+            {
+              "textToSpeech": "Q: What is subquery?\nA subquery is a query within another query. The outer query is called as main query, and inner query is called subquery. SubQuery is always executed first, and the result of subquery is passed on to the main query."
+            },
+            {
+              "textToSpeech": "Q: What are the types of subquery?\nThere are two types of subquery – Correlated and Non-Correlated.\nA correlated subquery cannot be considered as independent query, but it can refer the column in a table listed in the FROM the list of the main query.\nA Non-Correlated sub query can be considered as independent query and the output of subquery are substituted in the main query."
+            },
+            {
+              "textToSpeech": "Q: What is a stored procedure?\nStored Procedure is a function consists of many SQL statement to access the database system. Several SQL statements are consolidated into a stored procedure and execute them whenever and wherever required."
+            },
+            {
+              "textToSpeech": "Q: What is a trigger?\nA DB trigger is a code or programs that automatically execute with response to some event on a table or view in a database. Mainly, trigger helps to maintain the integrity of the database.Example: When a new student is added to the student database, new records should be created in the related tables like Exam, Score and Attendance tables."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between DELETE and TRUNCATE commands?\nDELETE command is used to remove rows from the table, and WHERE clause can be used for conditional set of parameters. Commit and Rollback can be performed after delete statement.TRUNCATE removes all rows from the table. Truncate operation cannot be rolled back."
+            },
+            {
+              "textToSpeech": "Q: What are local and global variables and their differences?\nLocal variables are the variables which can be used or exist inside the function.\n They are not known to the other functions and those variables cannot be referred or used. Variables can be created whenever that function is called.\nGlobal variables are the variables which can be used or exist throughout the program. Same variable declared in global cannot be used in functions. Global variables cannot be created whenever that function is called."
+            },
+            {
+              "textToSpeech": "Q: What is a constraint?\nConstraint can be used to specify the limit on the data type of table. Constraint can be specified while creating or altering the table statement. Sample of constraint are.\nNOT NULL\nCHECK\nDEFAULT\nUNIQUE\nPRIMARY KEY\nFOREIGN KEY."
+            },
+            {
+              "textToSpeech": "Q: What is data Integrity?\nData Integrity defines the accuracy and consistency of data stored in a database. It can also define integrity constraints to enforce business rules on the data when it is entered into the application or database."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between Cluster and Non-Cluster Index?\nClustered index is used for easy retrieval of data from the database by altering the way that the records are stored. Database sorts out rows by the column which is set to be clustered index.A nonclustered index does not alter the way it was stored but creates a complete separate object within the table. It point back to the original table rows after searching."
+            },
+            {
+              "textToSpeech": "Q: What is Datawarehouse?\nDatawarehouse is a central repository of data from multiple sources of information. Those data are consolidated, transformed and made available for the mining and online processing. Warehouse data have a subset of data called Data Marts."
+            },
+            {
+              "textToSpeech": "Q: What is Self-Join?\nSelf-join is set to be query used to compare to itself. This is used to compare values in a column with other values in the same column in the same table. ALIAS ES can be used for the same table comparison."
+            },
+            {
+              "textToSpeech": "Q: What is Cross-Join?\nCross join defines as Cartesian product where number of rows in the first table multiplied by number of rows in the second table. If suppose, WHERE clause is used in cross join then the query will work like an INNER JOIN."
+            },
+            {
+              "textToSpeech": "Q: What is user defined functions?\nUser defined functions are the functions written to use that logic whenever required. It is not necessary to write the same logic several times. Instead, function can be called or executed whenever needed."
+            },
+            {
+              "textToSpeech": "Q: What are all types of user defined functions?\nThree types of user defined functions are.Scalar Functions\nInline Table valued functions\nMulti statement valued functions\nScalar returns unit, variant defined the return clause. Other two types return table as a return."
+            },
+            {
+              "textToSpeech": "Q: What is collation?\nCollation is defined as set of rules that determine how character data can be sorted and compared. This can be used to compare A and, other language characters and also depends on the width of the characters.ASCII value can be used to compare these character data."
+            },
+            {
+              "textToSpeech": "Q: Advantages and Disadvantages of Stored Procedure?\nStored procedure can be used as a modular programming – means create once, store and call for several times whenever required. This supports faster execution instead of executing multiple queries. This reduces network traffic and provides better security to the data.Disadvantage is that it can be executed only in the Database and utilizes more memory in the database server."
+            },
+            {
+              "textToSpeech": "Q: What is Online Transaction Processing (OLTP)?\nOnline Transaction Processing (OLTP) manages transaction based applications which can be used for data entry, data retrieval and data processing. OLTP makes data management simple and efficient. Unlike OLAP systems goal of OLTP systems is serving real-time transactions.\nExample – Bank Transactions on a daily basis."
+            },
+            {
+              "textToSpeech": "Q: What is CLAUSE?\nSQL clause is defined to limit the result set by providing condition to the query. This usually filters some rows from the whole set of records.Example – Query that has WHERE condition"
+            },
+            {
+              "textToSpeech": "Q: What is recursive stored procedure?\nA stored procedure which calls by itself until it reaches some boundary condition. This recursive function or procedure helps programmers to use the same set of code any number of times."
+            },
+            {
+              "textToSpeech": "Q: What is Union, minus and Interact commands?\nUNION operator is used to combine the results of two tables, and it eliminates duplicate rows from the tables.\nMINUS operator is used to return rows from the first query but not from the second query. Matching records of first and second query and other rows from the first query will be displayed as a result set.INTERSECT operator is used to return rows returned by both the queries."
+            },
+            {
+              "textToSpeech": "Q: What is an ALIAS command?\nALIAS name can be given to a table or column. This alias name can be referred in WHERE clause to identify the table or column.\nExample-\nSelect st.StudentID, Ex.Result from student st, Exam as Ex where st.studentID = Ex. StudentID Here, st refers to alias name for student table and Ex refers to alias name for exam table."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between TRUNCATE and DROP statements?\nTRUNCATE removes all the rows from the table, and it cannot be rolled back. DROP command removes a table from the database and operation cannot be rolled back."
+            },
+            {
+              "textToSpeech": "Q: How to fetch common records from two tables?\nCommon records result set can be achieved by -.\nSelect studentID from student. <strong>INTERSECT </strong> Select StudentID from Exam."
+            },
+            {
+              "textToSpeech": "Q: What is Database Testing?\nIt is AKA back-end testing or data testing.Database testing involves in verifying the integrity of data in the front end with the data present in the back end. It validates the schema, database tables, columns, indexes, stored procedures, triggers, data duplication, orphan records, junk records. It involves in updating records in a database and verifying the same on the front end."
+            },
+            {
+              "textToSpeech": "Q: What is a Table in a Database?\nA table is a database object used to store records in a field in the form of columns and rows that holds data."
+            },
+            {
+              "textToSpeech": "Q: What is a Field in a Database?\nA field in a Database table is a space allocated to store a particular record within a table."
+            },
+            {
+              "textToSpeech": "Q: What is a Record in a Database?\nA record (also called a row of data) is an ordered set of related data in a table."
+            },
+            {
+              "textToSpeech": "Q: What is a column in a Table?\nA column is a vertical entity in a table that contains all information associated with a specific field in a table."
+            },
+            {
+              "textToSpeech": "Q: What is DBMS?\nDatabase Management System is a collection of programs that enables a user to store, retrieve, update and delete information from a database."
+            },
+            {
+              "textToSpeech": "Q: What is RDBMS?\nRDBMS stands for Relational Database Management System. RDBMS is a database management system (DBMS) that is based on the relational model. Data from relational database can be accessed using Structured Query Language (SQL)"
+            },
+            {
+              "textToSpeech": "Q: What are the popular Database Management Systems in the IT Industry?\nOracle, MySQL, Microsoft SQL Server, PostgreSQL, Sybase, MongoDB, DB2, and Microsoft Access etc.,"
+            },
+            {
+              "textToSpeech": "Q: What is SQL?\nSQL Overview: SQL stands for Structured Query Language. It is an American National Standard Institute (ANSI) standard. It is a standard language for accessing and manipulating databases. Using SQL, some of the action we could do are to create databases, tables, stored procedures (SP’s), execute queries, retrieve, insert, update, delete data against a database."
+            },
+            {
+              "textToSpeech": "Q: What is an Index?\nAn index is used to speed up the performance of queries. It makes faster retrieval of data from the table. The index can be created on one column or a group of columns."
+            },
+            {
+              "textToSpeech": "Q: What is a View?\nA view is like a subset of a table which is stored logically in a database. A view is a virtual table. It contains rows and columns similar to a real table. The fields in the view are fields from one or more real tables. Views do not contain data of their own. They are used to restrict access to the database or to hide data complexity."
+            },
+            {
+              "textToSpeech": "Q: What are the advantages of Views?\nSome of the advantages of Views areViews occupy no space\nViews are used to simply retrieve the results of complicated queries that need to be executed often.\nViews are used to restrict access to the database or to hide data complexity."
+            },
+            {
+              "textToSpeech": "Q: What is a Subquery ?\n A Subquery is a SQL query within another query. It is a subset of a Select statement whose return values are used in filtering the conditions of the main query."
+            },
+            {
+              "textToSpeech": "Q: What is a temp table?\nAns. A temp table is a temporary storage structure to store the data temporarily."
+            },
+            {
+              "textToSpeech": "Q: How to avoid duplicate records in a query?\n The SQL SELECT DISTINCT query is used to return only unique values. It eliminates all the duplicated values."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between Rename and Alias?\n‘Rename’ is a permanent name given to a table or column‘Alias’ is a temporary name given to a table or column."
+            },
+            {
+              "textToSpeech": "Q: What is a Join?\nJoin is a query, which retrieves related columns or rows from multiple tables."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between an inner and outer join?\nAn inner join returns rows when there is at least some matching data between two (or more) tables that are being compared.\nAn outer join returns rows from both tables that include the records that are unmatched from one or both the tables."
+            },
+            {
+              "textToSpeech": "Q: What are SQL constraints?\nSQL constraints are the set of rules that enforced some restriction while inserting, deleting or updating of data in the databases."
+            },
+            {
+              "textToSpeech": "Q: What are the constraints available in SQL?\nSome of the constraints in SQL are – Primary Key, Foreign Key, Unique Key, SQL Not Null, Default, Check and Index constraint."
+            },
+            {
+              "textToSpeech": "Q: What is a Unique constraint?\nA unique constraint is used to ensure that there are no duplication values in the field/column."
+            },
+            {
+              "textToSpeech": "Q: What is a Primary Key?\nA PRIMARY KEY constraint uniquely identifies each record in a database table. All columns participating in a primary key constraint must not contain NULL values."
+            },
+            {
+              "textToSpeech": "Q: Can a table contain multiple PRIMARY KEY’s?\nThe short answer is no, a table is not allowed to contain multiple primary keys but it allows to have one composite primary key consisting of two or more columns."
+            },
+            {
+              "textToSpeech": "Q: What is a Composite PRIMARY KEY?\nComposite PRIMARY KEY is a primary key created on more than one column (combination of multiple fields) in a table."
+            },
+            {
+              "textToSpeech": "Q: What is a FOREIGN KEY?\nA FOREIGN KEY is a key used to link two tables together. A FOREIGN KEY in a table is linked with the PRIMARY KEY of another table."
+            },
+            {
+              "textToSpeech": "Q: Can a table contain multiple FOREIGN KEY’s?\nA table can have many FOREIGN KEY’s."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between UNIQUE and PRIMARY KEY constraints?\nThere should be only one PRIMARY KEY in a table whereas there can be any number of UNIQUE Keys.PRIMARY KEY doesn’t allow NULL values whereas Unique key allows NULL values."
+            },
+            {
+              "textToSpeech": "Q: What is a NULL value?\nA field with a NULL value is a field with no value. A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation. Assume, there is a field in a table is optional and it is possible to insert a record without adding a value to the optional field then the field will be saved with a NULL value."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between NULL value, Zero, and Blank space?\nAs I mentioned earlier, Null value is field with no value which is different from zero value and blank space.Null value is a field with no value.\nZero is a number\nBlank space is the value we provide. The ASCII value of space is CHAR(32)."
+            },
+            {
+              "textToSpeech": "Q: What is SQL NOT NULL constraint?\nNOT NULL constraint is used to ensure that the value in the filed cannot be a NULL\n (AGE &gt; 18), PRIMARY KEY (EmpID));"
+            },
+            {
+              "textToSpeech": "Q: What is a DEFAULT constraint?\nDEFAULT constraint is used to include a default value in a column when no value is supplied at the time of inserting a record."
+            },
+            {
+              "textToSpeech": "Q: What is Normalization?\nNormalization is the process of table design to minimize the data redundancy. There are different types of Noramalization forms in SQL.\nFirst Normal Form\nSecond Normal Form\nThird Normal Form\nBoyce and Codd Normal Form."
+            },
+            {
+              "textToSpeech": "Q: What is Stored procedure?\nA Stored Procedure is a collection of SQL statements that have been created and stored in the database to perform a particular task. The stored procedure accepts input parameters and processes them and returns a single value such as a number or text value or a result set (set of rows)."
+            },
+            {
+              "textToSpeech": "Q: What is a Trigger?\nA Trigger is a SQL procedure that initiates an action in response to an event (Insert, Delete or Update) occurs. When a new Employee is added to an Employee_Details table, new records will be created in the relevant tables such as Employee_Payroll, Employee_Time_Sheet etc."
+            },
+            {
+              "textToSpeech": "Q: Explain SQL Data Types?\nIn SQL Server, each column in a database table has a name and a data type. We need to decide what type of data to store inside each and every column of a table while creating a SQL table."
+            },
+            {
+              "textToSpeech": "Q: What are the possible values that can be stored in a BOOLEAN data field?\nTRUE and FALSE."
+            },
+            {
+              "textToSpeech": "Q: What is the largest value that can be stored in a BYTE data field?\nThe largest number that can be represented in a single byte is 11111111 or 255. The number of possible values is 256 (i.e. 255 (the largest possible value) plus 1 (zero), or 28)."
+            },
+            {
+              "textToSpeech": "Q: What are Operators available in SQL?\nSQL Operator is a reserved word used primarily in an SQL statement’s WHERE clause to perform operations, such as arithmetic operations and comparisons. These are used to specify conditions in an SQL statement.\nThere are three types of Operators.\nArithmetic Operators\nComparison Operators\nLogical Operators."
+            },
+            {
+              "textToSpeech": "Q: Which TCP/IP port does SQL Server run?\nBy default it is 1433."
+            },
+            {
+              "textToSpeech": "Q: List out the ACID properties and explain?\n Following are the four properties of ACID. These guarantees that the database transactions are processed reliably.Atomicity\nConsistency\nIsolation\nDurability."
+            },
+            {
+              "textToSpeech": "Q: What is the difference between Having and Where clause?\nWhere clause is used to fetch data from a database that specifies particular criteria whereas a Having clause is used along with ‘GROUP BY’ to fetch data that meets particular criteria specified by the Aggregate functions. Where clause cannot be used with Aggregate functions, but the Having clause can."
+            },
+            {
+              "textToSpeech": "Q: Write an SQL Query to select all records from the table?\nSelect * from table_name;\nSelect * from table_name;\n."
+            },
+            {
+              "textToSpeech": "Q: How to get each name only once from an employee table?\nBy using the DISTINCT keyword, we could get each name only once,\nSELECT DISTINCT employee_name FROM employee_table;\nSELECT DISTINCT employee_name FROM employee_table;\n."
+            },
+            {
+              "textToSpeech": "Q: How to rename a column in the output of SQL query?\nBy using SQL AS keyword\n SELECT column_name AS new_name FROM table_name;\n SELECT column_name AS new_name FROM table_name;\n."
+            },
+            {
+              "textToSpeech": "Q: What is the order of SQL SELECT?\nOrder of SQL SELECT statement is as follows\nSELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY."
+            },
+            {
+              "textToSpeech": "Q: How to select all the even number records from a table?\n To select all the even number records from a table:\nSelect * from table where id % 2 = 0 ,\nSelect * from table where id % 2 = 0 ."
+            },
+            {
+              "textToSpeech": "Q: How to select all the odd number records from a table?\n To select all the odd number records from a table:\nSelect * from table where id % 2 != 0,\nSelect * from table where id % 2 != 0."
+            },
+            {
+              "textToSpeech": "Q: What is the SQL CASE statement?\nSQL Case statement allows embedding an if-else like clause in the SELECT statement."
+            },
+            {
+              "textToSpeech": "Q: Describe SQL comments?\nSingle Line Comments: Single line comments start with two consecutive hyphens (–) and ended by the end of the line\nMulti-Line Comments: Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored."
+            },
+            {
+              "textToSpeech": "Q: What is RDBMS?\\n\nRDBMS stands for Relational Database Management System. RDBMS store the data into the collection of tables, which is related by common fields between the columns of the table. It also provides relational operators to manipulate the data stored into the tables.\nExample: SQL Server."
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "More SQL Questions"
+            },
+            {
+              "title": "Java Questions"
+            },
+            {
+              "title": "Python Questions"
+            },
+            {
+              "title": "C Questions"
+            },
+            {
+              "title": "php Questions"
+            },
+            {
+              "title": "DS Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533661622,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "50c3d471-8384-451e-a797-2e76b8f016fb",
+      "data": [
+        {
+          "text": "show me SQL Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 1533388164,
+      "isAuto": false
+    },
+    {
+      "id": "f9c2e98d-be53-4bc7-9bd1-96d1d5ff2dc8",
+      "data": [
+        {
+          "text": "sql"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533388164,
+      "isAuto": false
+    },
+    {
+      "id": "f524dc85-650d-4127-93af-c3fcb4a3c2ba",
+      "data": [
+        {
+          "text": "SQL Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533388164,
+      "isAuto": false
+    },
+    {
+      "id": "aaef09b0-cabf-432f-9d08-0aa496d2a90f",
+      "data": [
+        {
+          "text": "tell me  about SQL Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533388164,
+      "isAuto": false
+    },
+    {
+      "id": "9030ba9f-410c-4f77-a31d-e8169a88ee5f",
+      "data": [
+        {
+          "text": "Interview Questions on SQL"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533388164,
+      "isAuto": false
+    },
+    {
+      "id": "627aa643-09ab-42d1-95f8-6f87304975a5",
+      "data": [
+        {
+          "text": "Questions on SQL"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533388164,
+      "isAuto": false
+    },
+    {
+      "id": "4eb2421c-1ef0-4057-9940-8884f1e0a57a",
+      "data": [
+        {
+          "text": "SQL Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1533388164,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

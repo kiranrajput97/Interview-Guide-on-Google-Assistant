@@ -1,0 +1,433 @@
+{
+  "id": "2bf42d8b-3abf-4136-8db0-b62804de36f5",
+  "name": "C++ Interview Questions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5955eb57-6186-40c5-83d6-105e4f08e57d",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "items": [
+            {
+              "textToSpeech": "Q:What things would you remember while making an interface? \\n A: A class’s interface should be sensible enough. It should behave the way user expects it to. It should be designed from the outside in."
+            },
+            {
+              "textToSpeech": "Q:When should a function throw an exception?\n1. A function should throw an exception when it is not able to fulfil its promise.\n 2. As soon as the function detects a problem that prevents it from fulfilling its promise, it should throw an exception."
+            },
+            {
+              "textToSpeech": "Q:Where are setjmp and longjmp used in C++?\n 1. Setjmp and longjmp should not be used in C++. 2. Longjmp jumps out of the function without unwinding the stack. This means that the local objects generated are not destructed properly."
+            },
+            {
+              "textToSpeech": "Q:Are there any special rules about inlining?\nYes, there are a few rules about inlining :\n 1. Any source files that used the inline function must contain the function’s definition. \n 2. An inline function must be defined everywhere. The easier way to deal with this to define the function once in the class header file and include the definition as required. The harder way is to redefine the function everywhere and learn the one.definition rule. 3. Main() can not be inline."
+            },
+            {
+              "textToSpeech": "Q:Explain One.Definition Rule (ODR).1. According to one.definition rule, C++ constructs must be identically defined in every compilation unit they are used in.\n 2. As per ODR, two definitions contained in different source files are called to be identically defined if they token.for.token identical."
+            },
+            {
+              "textToSpeech": "Q:What are the advantages of using friend classes?\n. Friend classes are useful when a class wants to hide features from users which are needed only by another, tightly coupled class. Implementation details can be kept safe by providing friend status to a tightly cohesive class."
+            },
+            {
+              "textToSpeech": "Q:What is the use of default constructor?\n. It is a constructor that does not accept any parameters. \n. If there is no user.defined constructor for a class, the compiler declares a default parameterless constructor called default constructor. It is an inline public member of its class.\n. When the compiler uses this constructor to create an object – the constructor will have no constructor initializer and a null body."
+            },
+            {
+              "textToSpeech": "Q:Differentiate between class and structure.\n. The members of structures are public while those of a class are private.\n. Classes provide data hiding while structures don’t. \n. Class bind both data as well as member functions while structures contain only data."
+            },
+            {
+              "textToSpeech": "Q:Explain container class.\n. Class to hold objects in memory or external storage. It acts as a generic holder.\n. It has a predefined behaviour and a known interface.\n. It is used to hide the topology used for maintaining the list of objects in memory.\n. The container class can be of two types:"
+            },
+            {
+              "textToSpeech": "Q:What is namespace?\n. Namespaces are used to group entities like classes, objects and functions under a name."
+            },
+            {
+              "textToSpeech": "Q:Explain explicit container.. These are constructors that cannot take part in an implicit conversion.. These are conversion constructors declared with explicit keyword. Explicit container is reserved explicitly for construction. It is not used by the compiler to implement an implied conversion of types."
+            },
+            {
+              "textToSpeech": "Q:Explain class invariant.\n. It is a condition that ensures correct working of a class and defines all the valid states for an object.\n. When an object is created class invariants must hold. \n. It is necessary for them to be preserved under all operations of the class.\n. All class invariants are both preconditions as well as post.conditions for all operations or member functions of the class."
+            },
+            {
+              "textToSpeech": "Q:Differentiate between late binding and early binding. What are the advantages of early binding?\n\n. Late binding refers to function calls that are not resolved until run time while early binding refers to the events that occur at compile time.\n. Late binding occurs through virtual functions while early binding takes place when all the information needed to call a function is known at the time of compiling."
+            },
+            {
+              "textToSpeech": "Q:Explain public, protected, private in C++?\nThese are three access specifiers in C++.\n1. Public : Here the data members and functions are accessible outside the class.\n 2. Protected : Data members and functions are available to derived classes only.3. Private : Data members and functions are not accessible outside the class."
+            },
+            {
+              "textToSpeech": "Q:Explain Copy Constructor.It is a constructor which initializes it's object member variable with another object of the same class. If you don't implement a copy constructor in your class, the compiler automatically does it."
+            },
+            {
+              "textToSpeech": "Q:Name the implicit member functions of a class.1. default constructor,2. copy constructor, 3. assignment operator, 4. default destructor 5. address operator."
+            },
+            {
+              "textToSpeech": "Q:Explain storage qualifiers in C++?\n1. Const : This variable means that if the memory is initialised once, it should not be altered by a program\n 2. Volatile : This variable means that the value in the memory location can be altered even though nothing in the program code modifies the contents \n3. Mutable : This variable means that a particular member of a structure or class can be altered even if a particular structure variable, class or class member function is constant."
+            },
+            {
+              "textToSpeech": "Q:Explain dangling pointer? When the address of an object is used after its lifetime is over, dangling pointer comes into existence.."
+            },
+            {
+              "textToSpeech": "Q:In what situations do you have to use initialization list rather than assignment in constructors?\n. When you want to use non.static const data members and reference data members you should use initialization list to initialize them."
+            },
+            {
+              "textToSpeech": "Q:When does a class need a virtual destructor?\n. If your class has at least one virtual function, you should have a virtual destructor. This allows you to delete a dynamic object through a baller to a base class object. ."
+            },
+            {
+              "textToSpeech": "Q:What is the type of “this” pointer?\n When does it get created?\n. It is a constant pointer type. It gets created when a non.static member function of a class is called.."
+            },
+            {
+              "textToSpeech": "Q:How would you differentiate between a pre and post increment operators while overloading?\n. Mentioning the keyword int as the second parameter in the post increment form of the operator++() helps distinguish between the two forms."
+            },
+            {
+              "textToSpeech": "Q:What is a pdb file?\n. A program database (PDB) file contains debugging and project state information that allows incremental linking of a Debug configuration of the program."
+            },
+            {
+              "textToSpeech": "Q:What are Stacks?\nA Stack is a linear structure in which insertions and deletions are always made at one end ."
+            },
+            {
+              "textToSpeech": "Q:In a function declaration, what does extern mean?\nHere, the extern tells the compiler about the existence of a variable or a function, even though the compiler hasn’t yet seen it in the file currently being compiled."
+            },
+            {
+              "textToSpeech": "Q:You want to link a C++ program to C functions. How would you do it?\nThis can be done by using the extern .'c' linkage specification around the C function declarations.\nExplain STL.\nSTL stands for Standard Template Library.\n It is a library of container templates approved by the ANSI committee for inclusion in the standard C++ specification."
+            },
+            {
+              "textToSpeech": "Q:What are the different types of STL containers?\nFollowing are the 3 types of STL containers :\n1 Adaptive containers : For e.g queue, stack \n2 Associative containers : For e.g set, map \n3 Sequence containers : For e.g vector, deque.."
+            },
+            {
+              "textToSpeech": "Q:Explain Stack unwinding.?\nStack unwinding is a process during exception handling when the destructor is called for all local objects between the place where the exception was thrown and where it is caught."
+            },
+            {
+              "textToSpeech": "Q:How would you find out if a linked.list is a cycle or not?\nWe can find out if the linked.list is not a cycle by using two pointers. One of them goes 2 nodes every time while the second one goes at 1 node each time. If there is a cycle, the one that goes 2 nodes each time will meet the one that goes slower. If this happens, you can say that the linked.list is a cycle else not."
+            },
+            {
+              "textToSpeech": "Q:How does code.bloating occur in C++?\nImproper use of Inline functions and templates may lead to code bloating.Multiple Inheritance may also lead to code bloating."
+            },
+            {
+              "textToSpeech": "Q:Differentiate between realloc() and free()?\n Free() : A block of memory previously allocated by the malloc subroutine is freed by free subroutine. Undefined results come out if the Pointer parameter is not a valid pointer. If the Pointer parameter is a null value, no action will take place."
+            },
+            {
+              "textToSpeech": "Q:Explain Function overloading and Operator overloading.\naFunction overloading,\nbOperator overloading."
+            },
+            {
+              "textToSpeech": "Q:Explain 'const.' reference arguments in function?\nIt protects you against programming errors that can alter data and also It allows function to process both const and non.const actual arguments."
+            },
+            {
+              "textToSpeech": "Q:Why do you use the namespace feature?\nIt identifies and assigns a name to a declarative region, The identifier in a namespace declaration must be unique in the declarative region in which it is used and The identifier is the name of the namespace and is used to reference its members."
+            },
+            {
+              "textToSpeech": "Q:Explain Overriding?\n Overriding a method means that replacing a method functionality in child class."
+            },
+            {
+              "textToSpeech": "Q:Differentiate between a copy constructor and an overloaded assignment operator.?\nA copy constructor constructs a new object by using the content of the argument object while an overloaded assignment operator assigns the contents of an existing object to another existing object of the same class."
+            },
+            {
+              "textToSpeech": "Q:Explain the scope of resolution operator?\nA scope resolution operator (::) is used to define the member functions of a class outside the class."
+            },
+            {
+              "textToSpeech": "Q:List the advantages of inheritance.Inheritence permits code reusability.\nReusability saves time in program development.\n It encourages the reuse of proven and debugged high.\nquality software which reduces the problems after a system becomes functional."
+            },
+            {
+              "textToSpeech": "Q:Differentiate between declaration and definition?The declaration informs the compiler that at some later point we plan to present the definition of this declaration."
+            },
+            {
+              "textToSpeech": "Q:What do you mean by a template?\nTemplates enable creation of generic functions that admit any data type as parameters and return value without having to overload the function with all the possible data types unless they fulfill the functionality of a macro."
+            },
+            {
+              "textToSpeech": "Q:Explain RTTI?\nRTTI Runtime type identification ,It lets you find the dynamic type of an object when you have only a pointer or a reference to the base type."
+            },
+            {
+              "textToSpeech": "Q:Difference between a copy constructor and an assignment operator?\nA copy constructor is used to declare and initialize an object from another object. An assignment operator does not invoke the copy constructor.\n It simply assigns the values of an object to another, member by member."
+            },
+            {
+              "textToSpeech": "Q:Difference between struct and class in terms of Access Modifier.?\nClasses and structures are syntactically similar. In C++, the role of the structure was expanded, making it an alternative way to specify a class."
+            },
+            {
+              "textToSpeech": "Q:What are virtual functions?\n If a function with same name exists in base as well as parent class, then the pointer to the base class would call the functions associated only with the base class."
+            },
+            {
+              "textToSpeech": "Q:What is a stack?\n A Stack is a linear data structure which is a collection of homogenous elements but where insertion and deletion operations take place at one end only, called TOP of the stack."
+            },
+            {
+              "textToSpeech": "Q:How a modifier is similar to mutator?\nA modifier is also known as mutator where the change in the member function value will change the value of a data member that is associated with the function.\n It modifies the state of an object that is why mutator as it mutates or makes duplicate copies of itself to be used so that by one function many things can be changed at a time."
+            },
+            {
+              "textToSpeech": "Q:What are the various operations performed on stack?\ncreatempty() : It creates an empty stack by initializing TOP to \nIsempty() : It determines whether stack is empty or not.\n It returns value 1 if stack is empty otherwise return 0 .\nPush() : Adding a new element at the top of the stack is called Push.\n Pop() : Removing an element from the top of the stack is called Pop."
+            },
+            {
+              "textToSpeech": "Q:Explain Queue?\nA queue is a linear data structure which is a collection of homogeneous elements where insertion and deletion occurs at different ends."
+            },
+            {
+              "textToSpeech": "Q:What is function prototyping?\n What are its advantages?\nFunction prototyping is a function declaration statement that tells the compiler about the return type of the function and the number as well as type of arguments required by the function at the time of calling it."
+            },
+            {
+              "textToSpeech": "Q:What is searching?\n1. Linear Search :\n2. Binary Search."
+            },
+            {
+              "textToSpeech": "Q:What is Insertion sorting?\nIn insertion sorting, an array is divided into two parts : \n1Sorted part \n2Unsorted part."
+            },
+            {
+              "textToSpeech": "Q:What are the various situations where a copy constructor is invoked?\nWhen an object is defined and initializes with the values of another object of the same type, then copy constructor is invoked.\nWhen an object is passed by value method, then copy constructor is invoked to create the copy of the passed object for the function.\nWhen a function returns an object, then copy constructor is invoked to create a temporary object to hold the return value in the memory."
+            },
+            {
+              "textToSpeech": "Q:What is the need of a destructor?\nDuring construction of an object, resources may be allocated for use."
+            },
+            {
+              "textToSpeech": "Q:on the ways in which parameterized can be invoked.\n 1Implicit Calling  \n2Explicit Calling ."
+            },
+            {
+              "textToSpeech": "Q:What is the difference between a copy constructor and an overloaded assignment operator?\nA copy constructor is used within the class to copy one object in a new object. This can be done by using the argument object in it, whereas an overloaded assignment operator link an existing object to another object which is existing but in the same class."
+            },
+            {
+              "textToSpeech": "Q:How to implement is.A and has.A class relationships?\n Is.a is a class relationship which is specialization of another class.\n It is used to describe the relationship with other classes.\n This relationship can be seen implemented in inheritance."
+            },
+            {
+              "textToSpeech": "Q:Why use of template is better than a base class?\n Templates are used for generic classes that contain objects of other types.\n It also allows you to manage the objects with their format and behavior intact."
+            },
+            {
+              "textToSpeech": "Q:What are the advantages of using a pointer?\n Define the operators that can be used with a pointer.Advantages of pointer :\n 1.Through pointer, one can access a memory location directly and manipulate it."
+            },
+            {
+              "textToSpeech": "Q:Define linked lists with the help of an example?\nIt is a linear data structure which is a collection of homogeneous elements called Nodes where linear relationship is maintained by using Pointers."
+            },
+            {
+              "textToSpeech": "Q:Explain the virtual inheritance in C++.?\nVirtual inheritance is used when a single base class is inherited with virtual methods."
+            },
+            {
+              "textToSpeech": "Q:Why is Standard Template Library used?\n The Standard template library is used as a container to the templates which have been approved by the ANSI."
+            },
+            {
+              "textToSpeech": "Q:What problem does the namespace feature solve?\nNamespace is an identifier that provides multiple libraries.\n This is used to remove the name collision when a name is linked with two or more libraries."
+            },
+            {
+              "textToSpeech": "Q:What is C++?\n C++ is created by Bjarne Stroustrup of AT&T Bell Labs as an extension of C, C++ is an object oriented computer language used in the development of enterprise and commercial applications.\n Microsoft’s Visual C++ became the premier language of choice among developers and programmers."
+            },
+            {
+              "textToSpeech": "Q:Define inheritance?\nThe mechanism of deriving a new class (derived) from an old class (base class) is called inheritance."
+            },
+            {
+              "textToSpeech": "Q:Define Constructors?\n A constructor is a member function with the same name as its class.\n The constructor is invoked whenever an object of its associated class is created.\n It is called constructor because it constructs the values of data members of the class."
+            },
+            {
+              "textToSpeech": "Q:What is the difference between C & C++?\n C++ is an object oriented programing but c is a procedure oriented programing."
+            },
+            {
+              "textToSpeech": "Q:What do you mean by implicit conversion?\n Whenever data types are mixed in an expression then C++ performs the conversion automatically.Here smaller type is converted to wider type."
+            },
+            {
+              "textToSpeech": "Q:What is the difference between class and structure?\n By default, the members of structures are public while that tor class is private.\n Structures doesn’t provide something like data hiding which is provided by the classes."
+            },
+            {
+              "textToSpeech": "Q:What is dynamic binding?\nDynamic binding means that the code associated with a given procedure call is not known until the time of the call at run time. It is associated with polymorphism and inheritance."
+            },
+            {
+              "textToSpeech": "Q:What is difference between function overloading and operator overloading?\nA function is overloaded when same name is given to different function.\n While overloading a function, the return type of the functions need to be the same."
+            },
+            {
+              "textToSpeech": "Q:What is friend function?\n The function declaration should be preceded by the keyword friend. \nThe function definitions does not use either the keyword or the scope operator ::."
+            },
+            {
+              "textToSpeech": "Q:What is an iterator?\n Iterators are like pointers.\n They are used to access the elements of containers thus providing a link between algorithms and containers. Iterators are defined for specific containers and used as arguments to algorithms."
+            },
+            {
+              "textToSpeech": "Q:What is an explicit constructor?\n A conversion constructor declared with the explicit keyword.\n The compiler does not use an explicit constructor to implement an implied conversion of types."
+            },
+            {
+              "textToSpeech": "Q:What do you mean by inline function?\n An inline function is a function that is expanded inline when invoked.ie. the compiler replaces the function call with the corresponding function code. An inline function is a function that is expanded in line when it is invoked."
+            },
+            {
+              "textToSpeech": "Q:What is the difference between a copy constructor and an overloaded assignment operator?\n A copy constructor constructs a new object by using the content of the argument objectAn overloaded assignment operator assigns the contents of an existing object to another existing object of the same class.."
+            },
+            {
+              "textToSpeech": "Q:What is class invariant?\nA class invariant is a condition that defines all valid states for an object, It is a logical condition to ensure the correct working of a class."
+            },
+            {
+              "textToSpeech": "Q: Explain the benefits of proper inheritance.\\n A. The biggest benefits of proper inheritance are: \\n  1. Substitutability \\n  2. Extensibility."
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "More C++ Questions"
+            },
+            {
+              "title": "Java questions"
+            },
+            {
+              "title": "Python questions"
+            },
+            {
+              "title": "php questions"
+            },
+            {
+              "title": "SQL Questions"
+            },
+            {
+              "title": "DS Questions"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534358208,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "bbdd5b30-2d22-43c0-9be7-abf29f0cfda1",
+      "data": [
+        {
+          "text": "show me C++ Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "554404a9-cf2f-4fa8-9f33-f51ca3f13915",
+      "data": [
+        {
+          "text": "C++",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "4dc9bea7-85bb-4ac2-8ca3-cc235e45d131",
+      "data": [
+        {
+          "text": "C++ Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "c8731723-db36-41f7-9e2d-c44a082f7ca2",
+      "data": [
+        {
+          "text": "Next Question"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "9631b312-5fdc-4ee1-8da5-76e405faec00",
+      "data": [
+        {
+          "text": "CPlusPlus",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": true
+        },
+        {
+          "text": " Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "15778393-dd6e-45ee-8a09-538a2ee449fb",
+      "data": [
+        {
+          "text": "Another Question"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "d140bf79-d70a-4923-8a0d-dbcdd863c25e",
+      "data": [
+        {
+          "text": "C plus plus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "6d8764f8-3f44-462f-8068-c0107b7db3f9",
+      "data": [
+        {
+          "text": "C++ Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    },
+    {
+      "id": "c9d781fb-b49c-44bd-b865-33715bd9afc1",
+      "data": [
+        {
+          "text": "Tell me about C++ Interview Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534358208,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
